@@ -1,0 +1,6 @@
+*backups/
+*Conflicted*
+.DS_Store
+fp-lib-table
+fp-info-cache
+*.lck

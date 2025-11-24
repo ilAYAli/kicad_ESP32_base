@@ -1,0 +1,381 @@
+(footprint "USB-C_SMD-TYPE-C-31-M-12_1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "USBC1"
+		(at 0 -6.47 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "02e2e757-7dcf-45e5-b182-c6fbbb51bd75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TYPE-C-31-M-12"
+		(at 0 6.47 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02367ae3-e988-45a7-af96-cf5d2eb26d5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "easyeda2kicad:USB-C_SMD-TYPE-C-31-M-12_1"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c26a776-75ae-47c2-8a3c-269c22ca5e92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778dbca0-4e60-4997-9f0b-4aedf97d014b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d7dad80-6787-4d0e-a415-2dba69d8f3a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C165948"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5715a59c-0506-43fb-acf3-9e7538102654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.47 1.38)
+		(end -4.47 -0.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41e7589e-0bdc-45f7-8934-6e663e881b25")
+	)
+	(fp_line
+		(start -4.47 5.1)
+		(end -4.47 3.62)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eecce634-0d32-4e38-a3f6-ee0dcb5bd989")
+	)
+	(fp_line
+		(start 4.47 1.38)
+		(end 4.47 -0.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c3979fb-9468-41e7-8f60-41cb52f4ea54")
+	)
+	(fp_line
+		(start 4.47 5.1)
+		(end -4.47 5.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd218ff3-d61b-454e-bfd8-18f8ced6d753")
+	)
+	(fp_line
+		(start 4.47 5.1)
+		(end 4.47 3.62)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64af3cdc-a4d0-418b-931c-aee79fda8f81")
+	)
+	(fp_circle
+		(center -2.9 -1.21)
+		(end -2.78 -1.21)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "e4120c04-6ce1-4dd8-9391-349dd31202eb")
+	)
+	(fp_circle
+		(center 2.9 -1.21)
+		(end 3.02 -1.21)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "6b32030e-608b-4ca8-a725-a579eaafe469")
+	)
+	(fp_circle
+		(center 4.48 -2.76)
+		(end 4.51 -2.76)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7ee603cc-a8df-4a42-b3b2-f949a44dfd15")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ad3fd89c-b669-4ecb-892a-df47e3cd8e0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.9 -1.21)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "82518a71-40a2-4e4b-8d25-2d11f9edfb3b")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.9 -1.21)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "880fb2e5-07e7-4bdc-aae9-8652d8312af8")
+	)
+	(pad "1" thru_hole oval
+		(at 4.33 -1.71)
+		(size 1.2 2)
+		(drill oval 0.799998 1.599971)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "91873db2-d574-499e-9b59-1232665a8af8")
+	)
+	(pad "2" thru_hole oval
+		(at 4.33 2.47)
+		(size 1.2 1.8)
+		(drill oval 0.799998 1.399997)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "3b14786b-30fa-461d-a4b2-4c588b293171")
+	)
+	(pad "3" thru_hole oval
+		(at -4.33 2.47)
+		(size 1.2 1.8)
+		(drill oval 0.799998 1.399997)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "e949d3fb-c3bc-423a-b900-9c309c3a9a84")
+	)
+	(pad "4" thru_hole oval
+		(at -4.33 -1.71)
+		(size 1.2 2)
+		(drill oval 0.799998 1.600022)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "d00e0dc0-62b9-4c93-8bc6-686ce3893099")
+	)
+	(pad "A1B12" smd custom
+		(at -3.2 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.28 0.62) (xy 0.28 -0.65) (xy 0 -0.65) (xy -0.3 -0.65) (xy -0.3 0.62) (xy -0.01 0.62) (xy 0.28 0.62)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "5b7c19cb-e4a9-4028-b861-0b6bb8b3c6d6")
+	)
+	(pad "A4B9" smd custom
+		(at -2.4 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3 0.62) (xy 0.3 -0.65) (xy 0 -0.65) (xy -0.28 -0.65) (xy -0.28 0.62) (xy 0 0.62) (xy 0.3 0.62)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "f3521755-3bfd-4771-a1f6-df7830bc00c3")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2767cf20-8867-47f0-9aa8-575202b69f07")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3fa430c9-df0c-4cfb-9843-b3f71a7393ca")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5afd8e0f-edfb-4f0c-b38d-30dcee9ecf89")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b369ba6-33c6-4663-8722-bb4904740589")
+	)
+	(pad "B1A12" smd custom
+		(at 3.2 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.29 -0.65) (xy -0.29 0.62) (xy -0.01 0.62) (xy 0 0.62) (xy 0.29 0.62) (xy 0.29 -0.65) (xy 0 -0.65)
+					(xy -0.01 -0.65) (xy -0.18 -0.65)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "4688c664-734b-4261-980e-52c483217540")
+	)
+	(pad "B4A9" smd custom
+		(at 2.4 -2.47)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.28 0.57) (xy 0.28 -0.65) (xy 0 -0.65) (xy -0.3 -0.65) (xy -0.3 0.62) (xy 0 0.62) (xy 0.28 0.62)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "1cc4a786-ba60-4b8b-a479-f0179a297e10")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "406b6068-ec23-4a22-8413-5f16d1606388")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90d9f12a-0e83-4ea6-9a02-df1da9f051b3")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d7875b0-f8b8-4b70-93f6-6623166ab856")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -2.47)
+		(size 0.3 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c0dd6a23-21f7-44b5-9864-ea0b9ebf6a77")
+	)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
+		(offset
+			(xyz 0 -1.1 0.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
