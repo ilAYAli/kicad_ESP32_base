@@ -1,0 +1,3 @@
+[submodule "libraries/pwa_kicad_lib"]
+	path = libraries/pwa_kicad_lib
+	url = git@github.com:ilAYAli/kicad_lib.git
