@@ -547,7 +547,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -560,7 +560,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" "USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -569,6 +569,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C165948"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "839f2243-e22c-49ac-becd-60dc242e4bba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. part" "TYPE-C-31-M-12 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c9b7b35-a6d4-4181-b00c-642667cfeaa4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1739,7 +1765,7 @@
 		(path "/abe94844-46d7-47b8-9a2a-7aa3aca7b7c0")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -1832,7 +1858,7 @@
 		(path "/f2b89189-b01c-4c1c-9029-8e0510ddf874")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -1896,7 +1922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17902.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1908,7 +1934,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10kΩ ±1% 250mW 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1920,7 +1946,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C98220"
+		(property "LCSC Part" "C17902"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2511,7 +2537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31B105KBHNNNE_1uF-105-10-50V_C1848.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1848.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2523,7 +2549,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2548,7 +2574,7 @@
 				)
 			)
 		)
-		(path "/3d67589d-c11c-4dd3-9ecd-69bc0924a679")
+		(path "/880f87ad-9e78-48e1-a1e2-1082aad93d57")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
 		(attr smd)
@@ -2726,7 +2752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C89632.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2738,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Description" "0uF ±10% 50V Ceramic Capacitor X7R 1206"
+		(property "Description" "10uF ±10% 50V Ceramic Capacitor X7R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3198,6 +3224,19 @@
 				)
 			)
 		)
+		(property "LCSP Part" "C2718488"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4951bc3-a2c7-4e98-8136-20e1b90a59ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c32c63ef-6d55-40cf-94a3-d0545cd3b96b")
 		(sheetname "/")
@@ -3440,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31B104KBCNNNC_100nF-104-10-50V_C24497.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C24497.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3452,7 +3491,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4555,6 +4594,19 @@
 				)
 			)
 		)
+		(property "LCSP Part" "C2905421"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df20e637-eebe-434b-bb5d-1ed2a3f6d55a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b7eb8429-709d-4ac3-b12b-9d18958050e6")
 		(sheetname "/")
@@ -5306,7 +5358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31B105KBHNNNE_1uF-105-10-50V_C1848.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1848.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5318,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5802,7 +5854,7 @@
 				)
 			)
 		)
-		(property "Value" "KH-IPEXA-SMAKWE-B080H, ant: C1509192"
+		(property "Value" "KH-IPEXA-SMAKWE-B080H"
 			(at 0 5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5846,6 +5898,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1538ae2f-d2cf-441d-8355-7e8dbce6b8f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mft Part" "KH-IPEX4-SMAKWE5-B100H "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2de388-bb72-4c76-aa53-8640883e6da6")
 			(effects
 				(font
 					(size 1 1)
@@ -6663,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31B104KBCNNNC_100nF-104-10-50V_C24497.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C24497.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6675,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6700,7 +6765,7 @@
 				)
 			)
 		)
-		(path "/ccc86fa5-398e-44d0-b3f5-9f1f61a53a36")
+		(path "/59429733-1338-48ed-8716-a531e77edcf1")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
 		(attr smd)
@@ -7378,6 +7443,32 @@
 				)
 			)
 		)
+		(property "LCSP Part" "C2905421"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43f206f7-7a62-4028-a68c-e70c91089fc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alt. mfr no" "Mouser: SQ-116-33-G-S "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47571c06-4151-454e-a8de-264b6056dd6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cf9875d7-d45c-4fcf-a8c6-987554af38aa")
 		(sheetname "/")
@@ -7948,7 +8039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17902.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7960,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10kΩ ±1% 250mW 1206"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7972,7 +8063,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C98220"
+		(property "LCSC Part" "C17902"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7985,7 +8076,7 @@
 				)
 			)
 		)
-		(path "/6c20836d-e37a-4835-8003-3303de800259")
+		(path "/787b2781-1cd0-4a99-91d1-070270578c19")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
 		(attr smd)
@@ -8337,7 +8428,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8349,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31B105KBHNNNE_1uF-105-10-50V_C1848.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C89632.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8361,7 +8452,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF ±10% 50V Ceramic Capacitor X7R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8386,7 +8477,21 @@
 				)
 			)
 		)
-		(path "/3bb31007-9407-4a3a-9bdd-4bbd09873b4b")
+		(property "LCSC" "C89632"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f0a868d-0a79-4927-b6de-2033c969c5e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/e3e28ee3-b5c5-426d-9a6d-77e8c8be1811")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
 		(attr smd)
@@ -8507,8 +8612,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "GND")
-			(pinfunction "1")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "c1a38cc5-d62d-40e8-a1f6-b65e80124ccb")
 		)
 		(pad "2" smd roundrect
@@ -8517,8 +8621,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 2 "+3.3V")
-			(pinfunction "2")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "43705d37-d668-4693-8818-dc5e46b43318")
 		)
 		(embedded_fonts no)
@@ -8930,7 +9033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17902.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8942,7 +9045,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10kΩ ±1% 250mW 1206"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8954,7 +9057,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C98220"
+		(property "LCSC Part" "C17902"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8967,7 +9070,7 @@
 				)
 			)
 		)
-		(path "/3f0512b6-6810-46a9-8eba-ee5df1c35009")
+		(path "/73c4b133-c92d-4552-8124-6e82a49d95d8")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
 		(attr smd)
@@ -9172,6 +9275,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fa21397-62d7-4a2a-925c-fc9630a7dacd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mrf. Part" "TS-1002S-04526C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8bacfe2-b0de-41cc-a307-3394a9f7c342")
 			(effects
 				(font
 					(size 1 1)
@@ -10459,6 +10575,17 @@
 		(uuid "12d8a6f8-5279-46aa-8a56-e684c2b14dba")
 	)
 	(gr_circle
+		(center 94.85998 241.628505)
+		(end 96.41498 241.628505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "578b0e6f-f172-406f-87d9-bc35ead893ac")
+	)
+	(gr_circle
 		(center 94.85998 197.628505)
 		(end 96.41498 197.628505)
 		(stroke
@@ -10479,6 +10606,19 @@
 		(fill yes)
 		(layer "F.Fab")
 		(uuid "edaa02c4-eebc-4dfc-b14b-92af6ec631e5")
+	)
+	(gr_text "v.6e07b40"
+		(at 189.55 245.6 0)
+		(layer "B.SilkS")
+		(uuid "ddf7cd61-c170-4797-9bfd-5be22b1484d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "ST"
 		(at 191.25 193.31 0)
