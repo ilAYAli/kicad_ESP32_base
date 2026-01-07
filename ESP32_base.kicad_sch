@@ -10863,7 +10863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 118.11 96.52 0)
 			(effects
 				(font
