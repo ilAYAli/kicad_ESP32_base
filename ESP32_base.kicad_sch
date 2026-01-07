@@ -1748,7 +1748,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1763,7 +1763,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -1789,7 +1789,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1816,7 +1816,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -1905,8 +1905,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -2107,7 +2129,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -2377,6 +2399,42 @@
 						)
 					)
 					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7321,12 +7379,6 @@
 		(uuid "50f855ec-9281-4aac-a5df-5d6076dddb6c")
 	)
 	(junction
-		(at 48.26 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bc88aa9-1a7a-4946-80bf-2f8b7bb03ee7")
-	)
-	(junction
 		(at 57.15 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7355,6 +7407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898011ef-c3ba-48da-b03d-5cb810616295")
+	)
+	(junction
+		(at 48.26 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b1acd5-d517-42a1-a34e-d07c6b86cc37")
 	)
 	(junction
 		(at 114.3 342.9)
@@ -7423,6 +7481,12 @@
 		(uuid "c0473217-ea3d-442f-a039-abd8cdca2c26")
 	)
 	(junction
+		(at 48.26 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c170dd36-30eb-4c6f-89f0-2851e387eb5c")
+	)
+	(junction
 		(at 87.63 312.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7463,12 +7527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ae6d94-3c7d-4968-bec1-44379e420b8a")
-	)
-	(junction
-		(at 48.26 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc8bbd8c-06b4-4bd6-8fe9-3aa1ddc2e978")
 	)
 	(no_connect
 		(at 190.5 76.2)
@@ -7515,6 +7573,10 @@
 		(uuid "350560aa-3125-40be-a800-92d3ca3f919f")
 	)
 	(no_connect
+		(at 48.26 93.98)
+		(uuid "37b175b4-1769-48ea-a2a8-271fbc5a5f79")
+	)
+	(no_connect
 		(at 241.3 104.14)
 		(uuid "3946876c-3887-49aa-a9a4-1c6a039cc4ae")
 	)
@@ -7525,6 +7587,10 @@
 	(no_connect
 		(at 146.05 321.31)
 		(uuid "4a524316-9c5d-44b2-b501-84886ee93c26")
+	)
+	(no_connect
+		(at 48.26 96.52)
+		(uuid "59dfc143-ed0e-476f-bc21-32842247d86e")
 	)
 	(no_connect
 		(at 241.3 76.2)
@@ -9807,6 +9873,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 33.02 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0f4537-7941-4ab7-86a7-f4ed85ee3ff8")
+		(property "Reference" "J4"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 33.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A8"
+			(uuid "7994a50d-b8ed-42be-9ca2-3fc53ccf681d")
+		)
+		(pin "B8"
+			(uuid "cb02cee7-0f6a-467a-8018-cf8972fccf53")
+		)
+		(pin "B6"
+			(uuid "205e5c6e-ff28-4cb3-954b-52cce95707dd")
+		)
+		(pin "A7"
+			(uuid "0a8983aa-61d4-4628-8b2d-bab170c286a7")
+		)
+		(pin "B7"
+			(uuid "cc2d7ca6-7b0c-4142-8723-01d117a07e42")
+		)
+		(pin "A6"
+			(uuid "e0dd991b-81e2-40f8-9245-bc7fcbcfc742")
+		)
+		(pin "B4"
+			(uuid "91c26722-0c7d-4a7d-9457-b0974d7379d0")
+		)
+		(pin "B9"
+			(uuid "1e10d241-c6bc-449e-ade2-ca52913598a1")
+		)
+		(pin "A5"
+			(uuid "e807ceb6-2aa6-43b6-93dc-86a8d7460a42")
+		)
+		(pin "B12"
+			(uuid "522cc97d-f4da-42b5-8c14-c14d4621300b")
+		)
+		(pin "B1"
+			(uuid "e87d3325-c414-43ac-9864-171280711c1b")
+		)
+		(pin "A12"
+			(uuid "b29859a3-9538-4adf-b98b-4b36fd9153d9")
+		)
+		(pin "A1"
+			(uuid "78b30c44-56f8-4841-863d-fd841425d6f6")
+		)
+		(pin "S1"
+			(uuid "2d193a2c-68d0-44a4-8095-890b24a789fa")
+		)
+		(pin "A9"
+			(uuid "83895165-2560-46a7-b1b1-d527b49ee11e")
+		)
+		(pin "B5"
+			(uuid "efc4416c-1553-489d-b0e8-8d48dc0c5710")
+		)
+		(pin "A4"
+			(uuid "51d9d7b6-17f3-4c0f-a110-84ead6786a5b")
+		)
+		(instances
+			(project ""
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 342.9 90)
 		(mirror x)
@@ -11136,131 +11315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 33.02 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "713456fd-76dc-4584-918c-53d4ec814118")
-		(property "Reference" "J4"
-			(at 33.02 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 33.02 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 36.83 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
-			(at 36.83 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount"
-			(at 33.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C165948"
-			(at 33.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. part" "TYPE-C-31-M-12 "
-			(at 33.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A7"
-			(uuid "85ed4aa7-f488-47dc-9eff-b9e86ad38df5")
-		)
-		(pin "A5"
-			(uuid "66db5ff4-579c-415a-ada8-5390cac9d858")
-		)
-		(pin "B9"
-			(uuid "110cc878-c4ff-435d-a42a-f2e928bb712b")
-		)
-		(pin "B5"
-			(uuid "a04a43b1-fc43-45c6-af53-fde785db8299")
-		)
-		(pin "S1"
-			(uuid "2800ecac-4ce2-458b-8651-3dd960e3dc49")
-		)
-		(pin "A6"
-			(uuid "dda910b7-bbb6-45f5-a8b0-7621c7ef0983")
-		)
-		(pin "A4"
-			(uuid "2de51a39-fd59-4ea5-8e6f-45578b10715a")
-		)
-		(pin "A9"
-			(uuid "584b71bc-0ee7-4a24-a5f4-e0e8dddeee9b")
-		)
-		(pin "B4"
-			(uuid "13ad317f-7480-41fa-9a70-ef0f1abfbb22")
-		)
-		(pin "B12"
-			(uuid "d468fee7-ad1e-4563-87c5-d0a01f55ed11")
-		)
-		(pin "B1"
-			(uuid "7fd0533f-a0dc-47d9-b7eb-c3c0413d285c")
-		)
-		(pin "A12"
-			(uuid "0dbf26dc-c143-4da8-aa12-9bed79e2d4c6")
-		)
-		(pin "B7"
-			(uuid "590299ec-456f-4039-aa12-133b9215d087")
-		)
-		(pin "B6"
-			(uuid "7da1cef9-5844-4402-900c-66c64b6e6edf")
-		)
-		(pin "A1"
-			(uuid "0c3dc156-6957-4430-a0f4-1a9622972ec5")
-		)
-		(instances
-			(project ""
-				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 124.46 198.12 0)
 		(unit 1)
@@ -11431,7 +11485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 87.63 196.5452 0)
 			(effects
 				(font
@@ -12045,7 +12099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 137.4648 186.69 0)
 			(effects
 				(font
@@ -12748,7 +12802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 123.4948 186.69 0)
 			(effects
 				(font
@@ -12825,7 +12879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:L_1206"
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -13585,7 +13639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 43.4848 196.85 0)
 			(effects
 				(font
@@ -13929,7 +13983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.81 99.822 90)
 			(effects
 				(font
@@ -14446,7 +14500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.81 131.572 90)
 			(effects
 				(font
@@ -14588,7 +14642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.81 118.872 90)
 			(effects
 				(font
@@ -15006,7 +15060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:L_1206"
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 106.68 176.53 0)
 			(effects
 				(font
