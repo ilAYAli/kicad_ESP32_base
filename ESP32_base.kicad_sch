@@ -9,153 +9,6 @@
 		(rev "v.6e07b40")
 	)
 	(lib_symbols
-		(symbol "CL31B104KBCNNNC_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL31B104KBCNNNC"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C1206"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31B104KBCNNNC_100nF-104-10-50V_C24497.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C24497"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL31B104KBCNNNC_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CL31B105KBHNNNE_1"
 			(pin_numbers
 				(hide yes)
@@ -1618,126 +1471,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint_Probe"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 1.651 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Probe"
-				(at 1.651 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative probe-style design)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Probe_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Probe_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7385,12 +7118,6 @@
 		(uuid "739ac8dc-986f-47bb-98cf-dfe75f53896e")
 	)
 	(junction
-		(at 114.3 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d952a70-22a9-4197-b8ec-2a29bbe39a09")
-	)
-	(junction
 		(at 163.83 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7403,46 +7130,16 @@
 		(uuid "8470544e-d480-4163-b787-35b88078ad82")
 	)
 	(junction
-		(at 92.71 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "898011ef-c3ba-48da-b03d-5cb810616295")
-	)
-	(junction
 		(at 48.26 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1b1acd5-d517-42a1-a34e-d07c6b86cc37")
 	)
 	(junction
-		(at 114.3 342.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a47f0b1e-d1d1-4bb6-97ce-e086976382f1")
-	)
-	(junction
 		(at 127 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0d2add9-d13a-4b6c-8534-0d0b2596a30c")
-	)
-	(junction
-		(at 114.3 337.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c9db40-4f9b-4878-aa8d-2ea198226bf3")
-	)
-	(junction
-		(at 104.14 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b639da01-aaa7-4d76-8152-3c708326c9bd")
-	)
-	(junction
-		(at 144.78 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6b76575-756b-4814-af91-10b90be5bbfb")
 	)
 	(junction
 		(at 97.79 184.15)
@@ -7511,22 +7208,10 @@
 		(uuid "e193c8ce-fcef-4e5a-ba6b-5e7c272501d5")
 	)
 	(junction
-		(at 151.13 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6ec29ba-3611-4b54-bb25-ca113561301d")
-	)
-	(junction
 		(at 134.62 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebdbf6b9-25e6-435c-acdf-b5be50d7d735")
-	)
-	(junction
-		(at 92.71 349.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2ae6d94-3c7d-4968-bec1-44379e420b8a")
 	)
 	(no_connect
 		(at 190.5 76.2)
@@ -7780,16 +7465,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 337.82) (xy 114.3 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8a3957-dcdb-4084-b9e6-9321de45f0a6")
-	)
-	(wire
-		(pts
 			(xy 92.71 88.9) (xy 101.6 88.9)
 		)
 		(stroke
@@ -7830,16 +7505,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 345.44) (xy 118.11 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14761f0b-f7d5-45ca-839d-713f80ef3c02")
-	)
-	(wire
-		(pts
 			(xy 237.49 109.22) (xy 241.3 109.22)
 		)
 		(stroke
@@ -7877,16 +7542,6 @@
 			(type default)
 		)
 		(uuid "1979e6e5-ef39-421d-950b-14e3211bd656")
-	)
-	(wire
-		(pts
-			(xy 151.13 201.93) (xy 151.13 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af2ac69-7803-4261-8dfa-3ca60e19974c")
 	)
 	(wire
 		(pts
@@ -7970,16 +7625,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 337.82) (xy 114.3 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29283256-ed10-4a2d-9425-4dc295e4cc25")
-	)
-	(wire
-		(pts
 			(xy 194.31 177.8) (xy 199.39 177.8)
 		)
 		(stroke
@@ -8007,16 +7652,6 @@
 			(type default)
 		)
 		(uuid "2c07e975-f2de-46f7-a2f4-a78be87e34ac")
-	)
-	(wire
-		(pts
-			(xy 86.36 340.36) (xy 92.71 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d597392-2e40-41f3-8099-e98c1905241b")
 	)
 	(wire
 		(pts
@@ -8140,16 +7775,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 347.98) (xy 92.71 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "445b3ed6-691e-4561-9521-fc8e9e56ba5f")
-	)
-	(wire
-		(pts
 			(xy 134.62 101.6) (xy 134.62 105.41)
 		)
 		(stroke
@@ -8157,16 +7782,6 @@
 			(type default)
 		)
 		(uuid "4497a579-8c92-4cf4-8831-515ac4da9532")
-	)
-	(wire
-		(pts
-			(xy 104.14 341.63) (xy 104.14 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46485abf-36f4-45ad-85db-2ae15ea8714c")
 	)
 	(wire
 		(pts
@@ -8257,16 +7872,6 @@
 			(type default)
 		)
 		(uuid "4f9ede31-da05-4901-8f13-e762bd6a47ae")
-	)
-	(wire
-		(pts
-			(xy 151.13 184.15) (xy 156.21 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522bade9-2b16-49e7-8043-e8d0403f297d")
 	)
 	(wire
 		(pts
@@ -8530,7 +8135,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 133.35) (xy 134.62 133.35)
+			(xy 134.62 133.35) (xy 153.67 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8587,26 +8192,6 @@
 			(type default)
 		)
 		(uuid "870f3010-bbaa-4106-8456-76a4463d1cfb")
-	)
-	(wire
-		(pts
-			(xy 118.11 342.9) (xy 114.3 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f2c869-69c4-4602-bd18-43d7cc3bdbbe")
-	)
-	(wire
-		(pts
-			(xy 118.11 340.36) (xy 114.3 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892fd9f9-4685-4814-b690-fe6089b65232")
 	)
 	(wire
 		(pts
@@ -8710,16 +8295,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 335.28) (xy 114.3 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c677df3-3e01-4add-bb73-39f8c393f6cd")
-	)
-	(wire
-		(pts
 			(xy 50.8 71.12) (xy 48.26 71.12)
 		)
 		(stroke
@@ -8777,26 +8352,6 @@
 			(type default)
 		)
 		(uuid "a80e2ed6-7c69-4d23-8feb-82ea0f347099")
-	)
-	(wire
-		(pts
-			(xy 114.3 342.9) (xy 114.3 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc0db77-ed5d-4686-a12e-e7d325ddab7e")
-	)
-	(wire
-		(pts
-			(xy 144.78 121.92) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae83ce4c-8262-412c-b738-a34d3daa54e9")
 	)
 	(wire
 		(pts
@@ -8867,16 +8422,6 @@
 			(type default)
 		)
 		(uuid "bbe76db5-5e25-4aff-9a1e-e09f2c6c9ae5")
-	)
-	(wire
-		(pts
-			(xy 118.11 335.28) (xy 114.3 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdccdc1f-960c-4b44-a016-ae4f7ac205c7")
 	)
 	(wire
 		(pts
@@ -8990,16 +8535,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 342.9) (xy 114.3 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c54e62-a55f-4052-8fee-3b8870788b40")
-	)
-	(wire
-		(pts
 			(xy 134.62 63.5) (xy 134.62 81.28)
 		)
 		(stroke
@@ -9030,16 +8565,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 349.25) (xy 92.71 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b12fc4-7711-456f-86ae-ebc06a6318cd")
-	)
-	(wire
-		(pts
 			(xy 44.45 204.47) (xy 44.45 208.28)
 		)
 		(stroke
@@ -9050,7 +8575,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 184.15) (xy 151.13 184.15)
+			(xy 138.43 184.15) (xy 156.21 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9087,16 +8612,6 @@
 			(type default)
 		)
 		(uuid "e2b53f92-3ebb-4569-bfde-5b3392cf4bf2")
-	)
-	(wire
-		(pts
-			(xy 92.71 340.36) (xy 104.14 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e615a88b-72b3-4570-bb96-e133721256e9")
 	)
 	(wire
 		(pts
@@ -9140,16 +8655,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 133.35) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e5bad1-82df-414e-93b9-fee693924d63")
-	)
-	(wire
-		(pts
 			(xy 163.83 335.28) (xy 163.83 342.9)
 		)
 		(stroke
@@ -9177,26 +8682,6 @@
 			(type default)
 		)
 		(uuid "ee402f03-3824-4e1d-9840-2e6e644150e0")
-	)
-	(wire
-		(pts
-			(xy 104.14 340.36) (xy 114.3 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efbbb856-0c69-4815-ad8d-4fd048f99a87")
-	)
-	(wire
-		(pts
-			(xy 92.71 349.25) (xy 104.14 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e4b772-5463-49c3-812b-ec21ec9f1938")
 	)
 	(wire
 		(pts
@@ -9655,16 +9140,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 340.36 270)
+		(at 118.11 335.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06130404-a638-4dd7-b2c5-2e10ead4de4b")
-		(property "Reference" "#PWR26"
-			(at 80.01 340.36 0)
+		(uuid "0ee9e954-b903-4cb8-988f-4539de28754b")
+		(property "Reference" "#PWR09"
+			(at 111.76 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 340.3601 90)
+			(at 114.3 335.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 340.36 0)
+			(at 118.11 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 340.36 0)
+			(at 118.11 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 340.36 0)
+			(at 118.11 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,12 +9194,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "23cd1f74-3ef6-4ca6-ad57-f7700d9353a0")
+			(uuid "44de9ee4-7f99-45a0-904d-4bc1ded04b6d")
 		)
 		(instances
-			(project "ESP32_base"
+			(project ""
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "#PWR26")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9880,7 +9365,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c0f4537-7941-4ab7-86a7-f4ed85ee3ff8")
 		(property "Reference" "J4"
 			(at 33.02 58.42 0)
@@ -9891,7 +9375,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 33.02 60.96 0)
+			(at 36.322 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10784,17 +10268,26 @@
 		)
 	)
 	(symbol
-		(lib_name "CL31B104KBCNNNC_1")
-		(lib_id "LCSC:CL31B104KBCNNNC")
-		(at 104.14 345.44 270)
+		(lib_id "power:GND")
+		(at 118.11 340.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "59429733-1338-48ed-8716-a531e77edcf1")
-		(property "Reference" "C11"
-			(at 109.22 347.472 90)
+		(fields_autoplaced yes)
+		(uuid "504ee722-8851-4244-9428-0fdcb0ee0170")
+		(property "Reference" "#PWR016"
+			(at 111.76 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 340.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,17 +10295,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 111.506 343.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 96.52 345.44 0)
+		(property "Footprint" ""
+			(at 118.11 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,8 +10304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C24497.pdf"
-			(at 93.98 345.44 0)
+		(property "Datasheet" ""
+			(at 118.11 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,34 +10313,89 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 1206"
-			(at 104.14 345.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC Part" "C24497"
-			(at 91.44 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "035d3a5e-ced4-4941-a1dc-33f968d1440f")
 		)
 		(pin "1"
-			(uuid "97111408-2faa-4e99-8582-f7c704c5cd60")
+			(uuid "71e81133-2a2d-4d80-9a51-d44d097e2613")
 		)
 		(instances
 			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "C11")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 345.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53060326-ea46-46eb-b066-f7e926779191")
+		(property "Reference" "#PWR026"
+			(at 111.76 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 345.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cea7a73-53b4-44b2-89ec-8aeabd521304")
+		)
+		(instances
+			(project "ESP32_base"
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10924,6 +10463,73 @@
 			(project ""
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 337.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4b92a4-6e51-40c7-a8db-f5a2b3b0bf17")
+		(property "Reference" "#PWR010"
+			(at 111.76 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 337.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e64b7565-0fbf-427d-8cd8-2904d68a16ac")
+		)
+		(instances
+			(project "ESP32_base"
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12630,6 +12236,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 118.11 342.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d1b1798-7601-494b-b65a-e92bd835e3d7")
+		(property "Reference" "#PWR025"
+			(at 111.76 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 342.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbbe1a0d-1419-4061-b772-885b19df9393")
+		)
+		(instances
+			(project "ESP32_base"
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 195.58 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13065,72 +12738,6 @@
 			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 144.78 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "abe94844-46d7-47b8-9a2a-7aa3aca7b7c0")
-		(property "Reference" "test_point1"
-			(at 148.59 119.0624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 148.59 121.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 149.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NO PART: test point (alternative probe-style design)"
-			(at 144.78 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c11b3dc5-6f81-48db-870e-ae5cbb41ff07")
-		)
-		(instances
-			(project "ESP32_base"
-				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "test_point1")
 					(unit 1)
 				)
 			)
@@ -13685,73 +13292,6 @@
 			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 86.36 349.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c56e5ea5-19b0-4850-a8bd-86080552bcaa")
-		(property "Reference" "#PWR25"
-			(at 90.17 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 82.55 349.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f939107-9158-4142-8fa9-31eec8498de4")
-		)
-		(instances
-			(project "ESP32_base"
-				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -14758,85 +14298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:1206,10uF")
-		(at 92.71 344.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e28ee3-b5c5-426d-9a6d-77e8c8be1811")
-		(property "Reference" "C10"
-			(at 95.25 341.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 95.25 344.17 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 90.932 344.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C89632.pdf"
-			(at 92.71 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF ±10% 50V Ceramic Capacitor X7R 1206"
-			(at 92.71 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C89632"
-			(at 92.71 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a62be2f-719a-4cef-a8ec-12115cc51a65")
-		)
-		(pin "2"
-			(uuid "efde40ff-96d3-4403-8eb9-1d71a519e993")
-		)
-		(instances
-			(project "ESP32_base"
-				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 351.79 270)
 		(mirror x)
@@ -15106,73 +14567,6 @@
 			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 151.13 201.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b89189-b01c-4c1c-9029-8e0510ddf874")
-		(property "Reference" "test_point2"
-			(at 152.4 202.2474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 152.4 204.7874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 146.05 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NO PART: test point (alternative probe-style design)"
-			(at 151.13 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30fdb1be-60fa-4db3-810e-ad9d2451b1a9")
-		)
-		(instances
-			(project "ESP32_base"
-				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "test_point2")
 					(unit 1)
 				)
 			)
