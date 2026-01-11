@@ -498,9 +498,9 @@
       },
       {
         "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "name": "USB_DATA",
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.7,
+        "name": "USB_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
@@ -513,7 +513,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB_DATA",
+        "netclass": "USB_90",
         "pattern": "/USB_D*"
       },
       {
