@@ -10753,6 +10753,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x16_Socket")
+		(at 234.95 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f1b399-3554-4507-8281-c2f42645060e")
+		(property "Reference" "J2"
+			(at 233.68 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x16_Socket"
+			(at 233.68 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2905421.pdf"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSP Part" "C2905421"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "KH-2.54FH-1X16P-H8.5"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0784d3fa-b239-44c8-87ff-66a082794c40")
+		)
+		(pin "9"
+			(uuid "a1679643-92de-4832-b027-18343da5a513")
+		)
+		(pin "13"
+			(uuid "d6951238-27a4-4011-b47a-33c1b76c5f3b")
+		)
+		(pin "11"
+			(uuid "cccab2e3-503a-4918-9c79-25802506332f")
+		)
+		(pin "12"
+			(uuid "8e52ef5e-db91-4314-9766-4b19afe0269e")
+		)
+		(pin "1"
+			(uuid "0c6b8d4d-7aaa-4543-a02f-2bd17ba2982b")
+		)
+		(pin "2"
+			(uuid "7a559b96-28e5-4916-ae06-def6e2385fed")
+		)
+		(pin "3"
+			(uuid "a770377a-3830-46e0-9a1e-2c265b2ebabf")
+		)
+		(pin "7"
+			(uuid "a0cc704d-f4a1-4e2c-bf8f-bb1b9a5bb841")
+		)
+		(pin "8"
+			(uuid "4e4c23ca-7cf5-47ff-a640-44214961cb83")
+		)
+		(pin "5"
+			(uuid "5435f8ea-4e69-4590-87d8-230e2f58f70c")
+		)
+		(pin "16"
+			(uuid "cee7d950-e62e-4b84-92bd-6e9eaad17825")
+		)
+		(pin "15"
+			(uuid "a1bebd0d-fc4d-4834-8684-ac3bd143c1d5")
+		)
+		(pin "14"
+			(uuid "f807cf6b-edaa-473f-bc41-0539882cb803")
+		)
+		(pin "4"
+			(uuid "018dd119-2866-4746-9ff0-77720774d40c")
+		)
+		(pin "6"
+			(uuid "f957080c-dab7-46a9-9bb0-0d3bf16f55e2")
+		)
+		(instances
+			(project "ESP32_base"
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 110.49 270)
 		(unit 1)
@@ -12178,129 +12310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x16_Socket")
-		(at 234.95 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7eb8429-709d-4ac3-b12b-9d18958050e6")
-		(property "Reference" "J2"
-			(at 233.68 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x16_Socket"
-			(at 233.68 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSP Part" "C2905421"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "365cd7b3-1072-4967-b20b-2715980b8c2e")
-		)
-		(pin "9"
-			(uuid "28a5ce96-c7e9-447f-826f-bdcd4bf3adff")
-		)
-		(pin "13"
-			(uuid "6086794b-e03c-4e44-ae12-14e20555d5fa")
-		)
-		(pin "11"
-			(uuid "d952f6dc-ca41-445e-82c1-ad62f1a47d40")
-		)
-		(pin "12"
-			(uuid "437ba5a8-1dd1-489b-8ed2-7ca6703507f6")
-		)
-		(pin "1"
-			(uuid "66834e15-c51a-4758-96e9-bf6f507c6640")
-		)
-		(pin "2"
-			(uuid "8a86f666-b013-41fd-a80f-9b90a6b0500b")
-		)
-		(pin "3"
-			(uuid "a256fea9-35da-49a0-ab73-0193ac196865")
-		)
-		(pin "7"
-			(uuid "a522c38d-8663-4481-98c3-ef843b4a64bd")
-		)
-		(pin "8"
-			(uuid "958dcf6a-7581-4f49-a98f-e77085d4feda")
-		)
-		(pin "5"
-			(uuid "58be8783-6b7b-4da4-b768-2ef4d0d0808c")
-		)
-		(pin "16"
-			(uuid "3e0c308f-8af5-459a-ba5a-402ca94b5988")
-		)
-		(pin "15"
-			(uuid "7492af07-0021-4d9c-ab1f-cbd295ef0557")
-		)
-		(pin "14"
-			(uuid "277217b2-12a6-4cfb-b17b-ac283cbf1004")
-		)
-		(pin "4"
-			(uuid "7079d945-a087-4782-959b-aad60e72dd48")
-		)
-		(pin "6"
-			(uuid "7a9c41e0-976c-4120-a249-49b4c59991b3")
-		)
-		(instances
-			(project "ESP32_base"
-				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 187.96 142.24 0)
 		(mirror y)
@@ -12779,7 +12788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2905421.pdf"
 			(at 187.96 106.68 0)
 			(effects
 				(font
@@ -12788,7 +12797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
+		(property "Description" "Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
 			(at 187.96 106.68 0)
 			(effects
 				(font
@@ -12798,6 +12807,15 @@
 			)
 		)
 		(property "LCSP Part" "C2905421"
+			(at 187.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "KH-2.54FH-1X16P-H8.5"
 			(at 187.96 106.68 0)
 			(effects
 				(font

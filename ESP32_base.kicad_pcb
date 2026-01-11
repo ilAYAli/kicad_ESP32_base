@@ -5379,7 +5379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2905421.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5391,7 +5391,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
+		(property "Description" "Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5416,8 +5416,21 @@
 				)
 			)
 		)
+		(property "Part" "KH-2.54FH-1X16P-H8.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2320528e-16ce-43da-a6f9-f6bd7b38026c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/b7eb8429-709d-4ac3-b12b-9d18958050e6")
+		(path "/83f1b399-3554-4507-8281-c2f42645060e")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
 		(attr through_hole)
@@ -7697,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2905421.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7709,7 +7722,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
+		(property "Description" "Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7740,6 +7753,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47571c06-4151-454e-a8de-264b6056dd6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KH-2.54FH-1X16P-H8.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1a26f23-139a-4a2d-a2f1-cf0aeffb590a")
 			(effects
 				(font
 					(size 1 1)
@@ -12266,12 +12292,12 @@
 		(uuid "026289c3-d67b-4104-aecc-e6a3c7305f64")
 	)
 	(segment
-		(start 122.3 234.5)
-		(end 127.8 234.5)
+		(start 104.1 228.8)
+		(end 116.6 228.8)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "0c5d1e6e-f806-42a7-9364-bd4d8d0d8431")
+		(uuid "034eee2c-a7d9-4c5b-9ec8-491873bdade8")
 	)
 	(segment
 		(start 104.0575 228.8425)
@@ -12282,36 +12308,12 @@
 		(uuid "185a8354-70a1-49cb-a61d-52c150b6cd2a")
 	)
 	(segment
-		(start 104.1 228.8)
-		(end 116.6 228.8)
+		(start 122.3 234.5)
+		(end 127.96 234.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "3b4cc84c-87d0-48f8-8e86-fd7d86764e34")
-	)
-	(segment
-		(start 127.8 234.5)
-		(end 129.95 236.65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "6f6ab067-384a-4d3e-b264-55eb333fd7b9")
-	)
-	(segment
-		(start 129.95 236.65)
-		(end 130.7 236.65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "814d2c15-f2da-44db-8868-55ca9c70ec67")
-	)
-	(segment
-		(start 116.6 228.8)
-		(end 122.3 234.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "86772b41-c214-4d57-a7ce-8fa5e4c0fd8d")
+		(uuid "5401ec43-cc1d-4d7e-b4d5-4803f022bf1c")
 	)
 	(segment
 		(start 91.52 228.8)
@@ -12320,6 +12322,30 @@
 		(layer "F.Cu")
 		(net 19)
 		(uuid "a1320eca-47dd-4c9a-8561-1462b0324d58")
+	)
+	(segment
+		(start 127.96 234.5)
+		(end 130.11 236.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "b2c4da4d-ae68-41a4-a6a8-df911d629ea7")
+	)
+	(segment
+		(start 130.11 236.65)
+		(end 130.7 236.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "b7c179ea-5b39-46ea-9e51-8c592a66c7b3")
+	)
+	(segment
+		(start 116.6 228.8)
+		(end 122.3 234.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "e254b5f7-1ab7-49f6-9f87-16f60519b020")
 	)
 	(segment
 		(start 87.0186 228.8)

@@ -509,7 +509,21 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(194, 0, 0)",
+      "+5V": "rgb(132, 0, 0)",
+      "/JOYSTICK": "rgb(194, 0, 194)",
+      "/LCD_BL": "rgb(0, 132, 132)",
+      "/LCD_CS": "rgb(0, 132, 132)",
+      "/LCD_DC": "rgb(0, 132, 132)",
+      "/LCD_RST": "rgb(0, 132, 132)",
+      "/SPI_MISO": "rgb(204, 102, 0)",
+      "/SPI_MOSI": "rgb(204, 102, 0)",
+      "/SPI_SCK": "rgb(204, 102, 0)",
+      "/TEMP_CS": "rgb(39, 100, 255)",
+      "/USB_D+": "rgb(255, 153, 0)",
+      "/USB_D-": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
