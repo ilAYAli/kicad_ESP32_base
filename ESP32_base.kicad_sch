@@ -4070,6 +4070,227 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TS-1002S-04526C_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW2"
+				(at -9.398 2.032 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Value" "reset"
+				(at 1.524 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C455109"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1002S-04526C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 1.27) (xy -0.76 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 0.25) (xy -1.02 0.25) (xy -1.02 0) (xy -0.76 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS-1002S-04526C_1_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:ADT7310TRZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4958,8 +5179,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 12.7 0)
+			(property "Reference" "TVS1"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4967,7 +5188,7 @@
 				)
 			)
 			(property "Value" "USBLC6-2SC6"
-				(at 0 -12.7 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4992,7 +5213,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "17VC Clamp 5A Ipp ESD DIODE SOT-23-6L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5335,24 +5556,6 @@
 					)
 				)
 				(pin input line
-					(at 16.51 7.62 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 16.51 0 180)
 					(length 5.08)
 					(name "5"
@@ -5370,7 +5573,27 @@
 						)
 					)
 				)
-				(pin input line
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(pin output line
+					(at 16.51 7.62 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at 16.51 -7.62 180)
 					(length 5.08)
 					(name "4"
@@ -5737,6 +5960,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -6125,6 +6449,12 @@
 		(uuid "fd6fd349-51d8-4203-9ea7-881b4756378a")
 	)
 	(junction
+		(at 74.93 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de7d82f-38db-4ee7-84d4-af17123bd4a1")
+	)
+	(junction
 		(at 127 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6135,6 +6465,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2878e003-700e-4856-9ee2-fff0e70b5fea")
+	)
+	(junction
+		(at 146.05 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f372d0c-f9eb-490d-b219-4da0ff342674")
 	)
 	(junction
 		(at 67.31 266.7)
@@ -6165,6 +6501,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45bfe9af-2e0f-4e06-a616-5e2a35014b15")
+	)
+	(junction
+		(at 135.89 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "465d520e-b6e8-4943-8e20-e14e52ff2853")
 	)
 	(junction
 		(at 40.64 179.07)
@@ -6225,6 +6567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4334ed-cb0e-48b3-88e3-09ff30eb4654")
+	)
+	(junction
+		(at 148.59 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f2ffa7-60ed-4395-a710-87a2ba7018b1")
 	)
 	(junction
 		(at 107.95 137.16)
@@ -6355,6 +6703,10 @@
 		(uuid "9ebe544b-4aee-41b5-98c5-7820e6c72ed3")
 	)
 	(no_connect
+		(at 86.36 293.37)
+		(uuid "9f3684f0-68fa-4005-a9ac-2b4a06580a3d")
+	)
+	(no_connect
 		(at 240.03 106.68)
 		(uuid "a3859115-3653-455e-ad74-db3b14fd4603")
 	)
@@ -6373,6 +6725,10 @@
 	(no_connect
 		(at 114.3 292.1)
 		(uuid "b2394f48-47a0-4cd2-b768-2c7d0e87eb9c")
+	)
+	(no_connect
+		(at 238.76 243.84)
+		(uuid "b6c6e6bd-8ef4-4853-88d9-e2edff5e1043")
 	)
 	(no_connect
 		(at 240.03 124.46)
@@ -6548,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 298.45) (xy 149.86 298.45)
+			(xy 146.05 298.45) (xy 148.59 298.45)
 		)
 		(stroke
 			(width 0)
@@ -6765,6 +7121,16 @@
 			(type default)
 		)
 		(uuid "43d0daf9-c534-4fd4-95fc-f4d9e090d405")
+	)
+	(wire
+		(pts
+			(xy 148.59 298.45) (xy 149.86 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4784263c-9f92-49b3-8fad-b40fa8a97aa6")
 	)
 	(wire
 		(pts
@@ -6988,7 +7354,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 118.11) (xy 157.48 118.11)
+			(xy 135.89 118.11) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7108,7 +7474,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 151.13 129.54)
+			(xy 139.7 129.54) (xy 146.05 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7128,7 +7494,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 191.77) (xy 120.65 191.77)
+			(xy 67.31 191.77) (xy 74.93 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7458,6 +7824,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d6367a-527f-41ae-bf3a-dc479798c4ed")
+	)
+	(wire
+		(pts
 			(xy 52.07 99.06) (xy 58.42 99.06)
 		)
 		(stroke
@@ -7465,6 +7841,16 @@
 			(type default)
 		)
 		(uuid "daf8ec21-9377-4c3d-9d81-38cfff417cbc")
+	)
+	(wire
+		(pts
+			(xy 146.05 129.54) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3b394b-41f3-4e22-81e6-ff03e0a54ce0")
 	)
 	(wire
 		(pts
@@ -7478,7 +7864,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 157.48 102.87)
+			(xy 135.89 102.87) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7635,6 +8021,16 @@
 			(type default)
 		)
 		(uuid "fb4e4ce0-6879-464f-824c-a31b10d20a6d")
+	)
+	(wire
+		(pts
+			(xy 74.93 191.77) (xy 120.65 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc351aca-c9e9-49b4-aaf0-69e00103ae5a")
 	)
 	(label "TP_CS"
 		(at 196.85 116.84 0)
@@ -7857,7 +8253,7 @@
 		(uuid "d21c0fb5-6845-4f81-8370-601dfc3efe3e")
 	)
 	(label "USB_D-"
-		(at 157.48 102.87 180)
+		(at 151.13 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7897,7 +8293,7 @@
 		(uuid "f4d0ed7c-4db1-4c1f-bf7d-3c491f0d832e")
 	)
 	(label "USB_D+"
-		(at 157.48 118.11 180)
+		(at 151.13 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8194,6 +8590,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7ba184-4bc4-472d-9463-2cc5aaa43b59")
+		(property "Reference" "#FLG03"
+			(at 74.93 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 74.93 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "865923e0-0795-4720-a3ec-83c2929b342e")
+		)
+		(instances
+			(project ""
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 298.45 270)
 		(unit 1)
@@ -8322,6 +8784,72 @@
 			(project ""
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 148.59 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "108d9587-64f5-4920-9a20-52fa8eb84f49")
+		(property "Reference" "#FLG04"
+			(at 148.59 296.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 148.59 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 148.59 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda7e75c-3767-4149-89c0-126c4c6a1026")
+		)
+		(instances
+			(project ""
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -9454,7 +9982,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 135.89 110.49 270)
+		(at 139.7 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9463,7 +9991,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b9e8ebd-a648-4ed1-96f8-6ad8391ceefa")
 		(property "Reference" "#PWR030"
-			(at 132.08 110.49 0)
+			(at 135.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +10000,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 139.7 110.4899 90)
+			(at 143.51 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +10027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 135.89 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,6 +12075,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8da06fc-2c12-4667-a1fe-98071d6fd7b5")
+		(property "Reference" "#FLG02"
+			(at 135.89 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8325ceba-5bef-43d2-8239-f03cf2e65e15")
+		)
+		(instances
+			(project "ESP32_base"
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 34.29 110.49 0)
 		(unit 1)
@@ -11678,6 +12272,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TS-1002S-04526C_1")
 		(lib_id "LCSC:TS-1002S-04526C")
 		(at 41.91 285.75 0)
 		(mirror y)
@@ -11724,7 +12319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile Switch SPST 4.5mm 6mm x 6mm Surface Mount"
 			(at 41.91 285.75 0)
 			(effects
 				(font
@@ -12246,7 +12841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 119.38 125.73 0)
 			(effects
 				(font
@@ -12255,7 +12850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7519.pdf"
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html"
 			(at 119.38 128.27 0)
 			(effects
 				(font
@@ -13528,6 +14123,72 @@
 			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34858f6-07f4-4a4f-8870-e9efb77c3ab0")
+		(property "Reference" "#FLG01"
+			(at 146.05 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda6e9e2-6df8-4796-a20f-1eb54790ae0e")
+		)
+		(instances
+			(project ""
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
