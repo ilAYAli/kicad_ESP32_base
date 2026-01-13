@@ -3556,6 +3556,19 @@
 				)
 			)
 		)
+		(property "Mfr. Part" "SRP3212A-4R7M"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de2e0d62-8600-4e3f-8c12-5f21be50a478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/a2e1209a-c018-47e8-b3d3-cf878ccd97e6")
 		(sheetname "/")
@@ -7531,6 +7544,19 @@
 				)
 			)
 		)
+		(property "Mfr. Part" "TS-1002S-04526C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "200f723e-d7c3-4e7d-9088-992e7b5e7705")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/abd0571f-8b76-4fa9-a9ce-b0caa4015196")
 		(sheetname "/")
 		(sheetfile "ESP32_base.kicad_sch")
@@ -8052,6 +8078,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87f6543b-a421-4c47-b949-a030e415fc19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr. Part" "2.54-1*4P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1557f2e1-dc16-494d-8f5d-10cbddf0d2da")
 			(effects
 				(font
 					(size 1 1)
@@ -12218,7 +12257,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "86656f17-0cb1-4a94-8b49-281f89c6b0cc")
+			(uuid "5721a935-2aaf-4e1d-ad46-fed8353e104f")
 		)
 		(fp_line
 			(start -3 -14)
@@ -12228,7 +12267,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e0f0b32b-0f3b-471b-b0be-b39568db49e3")
+			(uuid "e931e5c4-9fc6-40e3-a33e-324e0948a215")
 		)
 		(fp_line
 			(start -3 -0.84)
@@ -12238,7 +12277,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d5d62c44-fe05-488a-8a2e-280f3ca6e28e")
+			(uuid "b3eb727b-662f-44ca-ad0a-b31c0bd7db0c")
 		)
 		(fp_line
 			(start -0.73 -3)
@@ -12248,7 +12287,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "34d97ca1-cdfa-48f2-8c02-a3b45a3475c5")
+			(uuid "ddfa4e83-9efe-456f-917f-3e916675dfc4")
 		)
 		(fp_line
 			(start -0.73 3)
@@ -12258,7 +12297,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6d80d7c7-6100-4da3-b887-51f495b1672f")
+			(uuid "a4674a55-15db-4881-aea4-99444205c37c")
 		)
 		(fp_line
 			(start 3 -14)
@@ -12268,7 +12307,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e3e0d9e-ca9d-4a36-83ab-efc08d455918")
+			(uuid "f6d08aec-4425-46e9-b884-883643b4b32f")
 		)
 		(fp_line
 			(start 3 -0.84)
@@ -12278,7 +12317,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "389eac62-ef11-4e77-b607-149265da6b9a")
+			(uuid "00c5e4b6-c926-4a69-ace5-2e0925f06970")
 		)
 		(fp_circle
 			(center -4.06 2.54)
@@ -12289,7 +12328,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "5ced6cc5-ee24-4b29-aa5f-153789e2cfa5")
+			(uuid "fc393272-ead5-44ba-a2c6-c4ac84fea14f")
 		)
 		(fp_circle
 			(center -3 3)
@@ -12300,7 +12339,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cc054d33-0954-43f5-988d-532a1442fc48")
+			(uuid "e54e4e60-ab98-4b12-ada9-b99c18687943")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)

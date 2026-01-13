@@ -8129,15 +8129,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 227.33 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "a10c4732-83cd-420c-b313-ec26a14fb29d")
 		)
@@ -8403,15 +8394,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 41.91 275.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b011fb28-5371-4e61-ac82-38d24da7136d")
 		)
@@ -8490,15 +8472,6 @@
 			)
 		)
 		(property "Mfr. Part" "TYPE-C 16PIN 2MD(073)"
-			(at 38.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 38.1 109.22 0)
 			(effects
 				(font
@@ -8851,15 +8824,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 107.95 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 107.95 137.16 90)
 			(effects
 				(font
@@ -9515,15 +9479,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 142.24 314.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9cb2aa60-154a-4972-a863-98d93763da8c")
 		)
@@ -9595,15 +9550,6 @@
 		)
 		(property "LCSC" "C49678"
 			(at 127 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf" "CC0805KRX7R9BB104"
-			(at 127 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,15 +9711,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 127 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 127 137.16 90)
 			(effects
 				(font
@@ -10124,15 +10061,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 142.24 306.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "92c2a97c-7565-4a35-ab8d-166268fdc45a")
 		)
@@ -10381,15 +10309,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 87.63 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bac0be4a-e748-43f5-921d-1434c828d984")
 		)
@@ -10602,15 +10521,6 @@
 			)
 		)
 		(property "Mfr. Part" "ESP32-C5-WROOM-1U-N8R4"
-			(at 100.33 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 100.33 293.37 0)
 			(effects
 				(font
@@ -11026,15 +10936,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 40.64 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "554d7de3-bfe7-4fc0-8195-b9644acaa4cb")
 		)
@@ -11351,15 +11252,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 134.62 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1ac87af6-78cf-4fb4-8c21-9b8bc63d6441")
 		)
@@ -11430,24 +11322,6 @@
 		)
 		(property "LCSC Part" "C21519"
 			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. part" "MPZ2012S601AT000"
-			(at 116.84 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
-			(at 116.84 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,15 +11913,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 120.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "11171d04-a4e9-4f82-bbc0-5d589b76bc15")
 		)
@@ -12186,15 +12051,6 @@
 			)
 		)
 		(property "LCSC Part" "C1509192"
-			(at 238.76 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf. Part" "HJ-2.4G/5G-PCB-SMA-RG141-L47mm"
 			(at 238.76 238.76 0)
 			(effects
 				(font
@@ -12357,15 +12213,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 238.76 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 238.76 238.76 0)
 			(effects
 				(font
@@ -12681,7 +12528,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 68.2752 264.16 0)
+			(at 67.31 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12879,15 +12726,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 67.31 260.35 0)
 			(effects
 				(font
@@ -13136,15 +12974,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 60.96 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 60.96 111.76 90)
 			(effects
 				(font
@@ -13467,15 +13296,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 142.24 298.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f77b6c70-148e-4346-b7d2-6924d2f7b041")
 		)
@@ -13716,15 +13536,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 60.96 116.84 90)
 			(effects
 				(font
@@ -14016,15 +13827,6 @@
 			)
 		)
 		(property "Mfr. Part" "KH-2.54FH-1X16P-H8.5"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 234.95 106.68 0)
 			(effects
 				(font
@@ -14591,15 +14393,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 41.91 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a6d039dc-7eb4-401c-a3ea-c065daffd0db")
 		)
@@ -14976,15 +14769,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 67.31 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 67.31 280.67 0)
 			(effects
 				(font
@@ -15765,15 +15549,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 151.13 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "136e3109-bce1-4600-bd6f-60b1bf7b2f13")
 		)
@@ -15925,15 +15700,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 67.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b5d2d72c-0997-4111-9e48-55ed6d2568ab")
 		)
@@ -16024,15 +15790,6 @@
 			)
 		)
 		(property "Mfr. Part" "USBLC6-2SC6"
-			(at 119.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -16398,15 +16155,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mrf part" ""
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5651eb51-dab8-4e18-82d9-1fbd7a570fee")
 		)
@@ -16621,15 +16369,6 @@
 			)
 		)
 		(property "Mfr. Part" "KH-2.54FH-1X16P-H8.5"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 187.96 106.68 0)
 			(effects
 				(font
@@ -16989,15 +16728,6 @@
 			)
 		)
 		(property "Voltage Rated" ""
-			(at 55.88 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrf part" ""
 			(at 55.88 260.35 0)
 			(effects
 				(font
