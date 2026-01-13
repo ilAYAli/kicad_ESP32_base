@@ -688,12 +688,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSP Part",
-          "name": "LCSP Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false

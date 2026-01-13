@@ -12680,7 +12680,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSP Part" "C1509192"
+		(property "LCSC Part" "C1509192"
 			(at 238.76 238.76 0)
 			(effects
 				(font
@@ -17952,7 +17952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "KH-2.54FH-1X16P-H8.5"
+		(property "Mfr. Part" "KH-2.54FH-1X16P-H8.5"
 			(at 187.96 106.68 0)
 			(effects
 				(font

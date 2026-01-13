@@ -7734,7 +7734,7 @@
 				)
 			)
 		)
-		(property "LCSP Part" "C2718488"
+		(property "LCSC Part" "C2718488"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10294,7 +10294,7 @@
 				)
 			)
 		)
-		(property "LCSP Part" "C2905421"
+		(property "LCSC Part" "C2905421"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14873,7 +14873,7 @@
 				)
 			)
 		)
-		(property "LCSP Part" "C2905421"
+		(property "LCSC Part" "C2905421"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
