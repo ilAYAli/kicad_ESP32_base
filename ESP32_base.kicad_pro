@@ -762,25 +762,37 @@
           "group_by": false,
           "label": "Mrf",
           "name": "Mrf",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Mrf. Part",
           "name": "Mrf. Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Mrf part",
           "name": "Mrf part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr. Part",
+          "name": "Mfr. Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mrf. part",
+          "name": "Mrf. part",
+          "show": true
         }
       ],
       "filter_string": "",
