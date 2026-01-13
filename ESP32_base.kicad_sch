@@ -8214,7 +8214,7 @@
 				(hide yes)
 			)
 		)
-		(property " LCSC Part" "C84376"
+		(property "LCSC Part" "C84376"
 			(at 41.91 275.59 90)
 			(effects
 				(font
@@ -10035,6 +10035,15 @@
 		)
 		(property "LCSC Part" "C21519"
 			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part" "MPZ2012S601AT000"
+			(at 116.84 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
