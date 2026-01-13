@@ -605,12 +605,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": true
@@ -631,12 +625,6 @@
           "group_by": false,
           "label": "Minimum Qty",
           "name": "Minimum Qty",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part",
-          "name": "Part",
           "show": false
         },
         {

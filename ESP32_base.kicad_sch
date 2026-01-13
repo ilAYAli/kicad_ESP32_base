@@ -2317,7 +2317,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C24497"
+			(property "LCSC Part" "C24497"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2398,7 +2398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "CL31B104KBCNNNC"
+			(property "Mfr. Part" "CL31B104KBCNNNC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2573,7 +2573,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C1846"
+			(property "LCSC Part" "C1846"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2654,7 +2654,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "1206B103K500NT"
+			(property "Mfr. Part" "1206B103K500NT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2829,7 +2829,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C29823"
+			(property "LCSC Part" "C29823"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2910,7 +2910,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "1206B475K500NT"
+			(property "Mfr. Part" "1206B475K500NT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3085,7 +3085,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C26033"
+			(property "LCSC Part" "C26033"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3094,7 +3094,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "1206W4F5101T5E"
+			(property "Mfr. Part" "1206W4F5101T5E"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11200,7 +11200,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC Part" "C27834"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -11209,7 +11209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0805W8F5101T5E"
+		(property "Mfr. Part" "0805W8F5101T5E"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -11600,7 +11600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC Part" "C27834"
 			(at 60.96 116.84 0)
 			(effects
 				(font
@@ -11609,7 +11609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0805W8F5101T5E"
+		(property "Mfr. Part" "0805W8F5101T5E"
 			(at 60.96 116.84 0)
 			(effects
 				(font
@@ -13443,7 +13443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84260"
+		(property "LCSC Part" "C84260"
 			(at 151.13 306.07 0)
 			(effects
 				(font
@@ -13452,7 +13452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "NCD0805G1"
+		(property "Mfr. Part" "NCD0805G1"
 			(at 151.13 306.07 0)
 			(effects
 				(font
@@ -13756,7 +13756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C780769"
+		(property "LCSC Part" "C780769"
 			(at 67.31 181.61 0)
 			(effects
 				(font
@@ -14049,7 +14049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437557"
+		(property "LCSC Part" "C437557"
 			(at 139.7 137.16 0)
 			(effects
 				(font
