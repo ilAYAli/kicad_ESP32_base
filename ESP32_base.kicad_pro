@@ -678,13 +678,13 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

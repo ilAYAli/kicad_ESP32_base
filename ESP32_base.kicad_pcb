@@ -4171,7 +4171,7 @@
 			)
 		)
 	)
-	(footprint "easyeda2kicad:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+	(footprint "pwa:USB-C-SMD_TYPE-C-6PIN-2MD-073"
 		(layer "F.Cu")
 		(uuid "3befca62-cace-4b9a-bf79-f3e1c4362aed")
 		(at 142 197 180)
@@ -4507,7 +4507,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "459696c7-2259-4129-83ec-2acaa90e8184")
+			(uuid "85952249-999d-4107-9362-b097e8fc8801")
 		)
 		(fp_line
 			(start 4.57 1.39)
@@ -4517,7 +4517,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "eb7c9b9b-784f-47e4-9cb7-0599c0b3f628")
+			(uuid "ae818586-c7b3-4a11-896f-838d2ce56e33")
 		)
 		(fp_line
 			(start 4.5 4.97)
@@ -4527,7 +4527,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0314b2d3-8fb8-492a-abec-9d22773e830c")
+			(uuid "aa0060fc-ac1e-4633-bdd0-88b0520ead6a")
 		)
 		(fp_line
 			(start -4.5 4.97)
@@ -4537,7 +4537,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e8a251d9-b4be-4b26-8e00-38b8809b31ee")
+			(uuid "9384f3bf-1722-45b3-a02b-83caba9eae3c")
 		)
 		(fp_line
 			(start -4.5 1.39)
@@ -4547,7 +4547,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e5ff723f-8d9e-45b5-bb92-a92e100132b4")
+			(uuid "f6e3a256-e5f4-4e91-a5ed-b656fd3a98d2")
 		)
 		(fp_circle
 			(center 2.89 -1.3)
@@ -4558,7 +4558,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "173b3ab5-c8a6-43ea-91b6-2f3ba5ae0a1e")
+			(uuid "70017723-f2db-4bf1-bac6-01b99bfd6496")
 		)
 		(fp_circle
 			(center -2.89 -1.3)
@@ -4569,7 +4569,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "79908f06-5f0b-4464-b65d-0c320a9ab10e")
+			(uuid "05fc3c22-39a1-4649-8f9f-c905a4dd1ad7")
 		)
 		(fp_circle
 			(center -4.45 -2.65)
@@ -4580,7 +4580,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2e6bcef0-ca86-49ec-9dca-aba2d0fbd3ef")
+			(uuid "69c0eb9f-3b35-4611-98eb-ad688f40500f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -4598,14 +4598,14 @@
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f7977b31-5ff3-4cf5-967a-d3e496113408")
+			(uuid "ef889b90-15b6-417b-83a9-b7245d894d79")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -1.3 180)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2d290cfc-d811-492b-afb7-fbe05b4c879e")
+			(uuid "521fa10e-ee52-4d87-8010-ce8e7c1502b2")
 		)
 		(pad "1" smd rect
 			(at -3.2 -2.38 180)
@@ -4735,7 +4735,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "36ae7fab-8228-4972-b55f-e1cfd00ef8f6")
+			(uuid "07931e30-b60b-4ebb-95bc-63c31d23d154")
 		)
 		(pad "14" thru_hole oval
 			(at 4.32 -1.83 180)
@@ -4757,7 +4757,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "d92b1db0-ca5f-4752-bf36-89bb1e990459")
+			(uuid "4173a169-5789-4d72-b2fc-f03719e05969")
 		)
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
