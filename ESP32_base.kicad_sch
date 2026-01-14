@@ -12395,7 +12395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19190305"
+		(property "LCSC Part" "C2905421"
 			(at 234.95 106.68 0)
 			(effects
 				(font
@@ -12405,24 +12405,6 @@
 			)
 		)
 		(property "Mfr. Part" "KH-2.54FH-1X16P-H8.5"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 234.95 106.68 0)
 			(effects
 				(font
