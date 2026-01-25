@@ -15888,7 +15888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PWA:USB-C_Receptacle"
 			(at 38.1 111.76 0)
 			(effects
 				(font

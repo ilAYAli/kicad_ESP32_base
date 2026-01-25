@@ -5436,15 +5436,15 @@
 			(uuid "5e7eed34-fe92-46f2-9e30-849e6ff3547d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
+		(model "${KIPRJMOD}/libraries/pwa_kicad_lib/pwa.3dshapes/USB-C_Receptacle.step"
 			(offset
-				(xyz 0 -1.2 0.9)
+				(xyz 0 -1.2 -0.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
