@@ -490,21 +490,35 @@
       {
         "name": "3.3V",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 9,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5
       },
       {
         "name": "5V",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 6,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.7
       },
       {
+        "clearance": 0.2,
+        "name": "BOOT",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.2,
+        "name": "EN",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 132)",
-        "priority": 8,
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5
       },
@@ -512,45 +526,53 @@
         "clearance": 0.2,
         "name": "GP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "clearance": 0.2,
         "name": "JOYSTICK",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "LCD",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.5,
         "name": "SIGNALS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 5,
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.2,
+        "name": "TEMP_CS",
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "TP",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 4,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "diff_pair_width": 0.7,
         "name": "USB",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 7,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -589,12 +611,24 @@
         "pattern": "/LCD_*"
       },
       {
-        "netclass": "SIGNALS",
+        "netclass": "JOYSTICK",
         "pattern": "/JOYSTICK"
       },
       {
         "netclass": "GP",
         "pattern": "/GP*"
+      },
+      {
+        "netclass": "TEMP_CS",
+        "pattern": "/TEMP_CS"
+      },
+      {
+        "netclass": "EN",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "BOOT",
+        "pattern": "/BOOT"
       }
     ]
   },

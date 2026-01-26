@@ -6662,7 +6662,7 @@
 	)
 	(text "(STRAPPING: see note!)"
 		(exclude_from_sim no)
-		(at 124.714 361.188 0)
+		(at 130.81 361.188 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -9037,6 +9037,26 @@
 			(justify right bottom)
 		)
 		(uuid "2be457e5-d032-4794-ac13-af849d93bfad")
+	)
+	(label "EN"
+		(at 78.74 322.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31034306-9bd6-44be-8e67-1aab2137afa3")
+	)
+	(label "BOOT"
+		(at 119.38 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32d699ef-63a1-4ac6-a1a9-6a0b5b67f304")
 	)
 	(label "SPI_SCK"
 		(at 119.38 334.01 0)
