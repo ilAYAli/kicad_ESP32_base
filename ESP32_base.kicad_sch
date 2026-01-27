@@ -9784,7 +9784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C84376.pdf"
+		(property "Datasheet" "~"
 			(at 44.45 322.58 0)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS"
+		(property "Description" "Resistor"
 			(at 44.45 322.58 0)
 			(effects
 				(font
@@ -10392,7 +10392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C84376.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 361.95 0)
 			(effects
 				(font
@@ -10401,7 +10401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS"
+		(property "Description" "Resistor"
 			(at 144.78 361.95 0)
 			(effects
 				(font
@@ -10779,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17520.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 353.06 0)
 			(effects
 				(font
@@ -10788,7 +10788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 125mW 0805 Thick Film Resistor"
+		(property "Description" "Resistor"
 			(at 144.78 353.06 0)
 			(effects
 				(font
@@ -10866,7 +10866,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 87.63 176.53 90)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -10892,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -11299,7 +11299,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "C"
 			(at 44.45 187.9599 0)
 			(effects
 				(font
@@ -11317,7 +11317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
+		(property "Datasheet" "~"
 			(at 40.64 186.69 0)
 			(effects
 				(font
@@ -11326,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF ±10% 50V Ceramic Capacitor X5R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 40.64 186.69 0)
 			(effects
 				(font
@@ -11538,7 +11538,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "C"
 			(at 138.43 182.8799 0)
 			(effects
 				(font
@@ -11556,7 +11556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119901.pdf"
+		(property "Datasheet" "~"
 			(at 134.62 181.61 0)
 			(effects
 				(font
@@ -11565,7 +11565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF ±20% 35V Ceramic Capacitor X5R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 134.62 181.61 0)
 			(effects
 				(font
@@ -12149,7 +12149,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "C"
 			(at 124.46 182.8799 0)
 			(effects
 				(font
@@ -12167,7 +12167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119901.pdf"
+		(property "Datasheet" "~"
 			(at 120.65 181.61 0)
 			(effects
 				(font
@@ -12176,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF ±20% 35V Ceramic Capacitor X5R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 181.61 0)
 			(effects
 				(font
@@ -12844,7 +12844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 73.66 308.6099 0)
 			(effects
 				(font
@@ -12854,6 +12854,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 70.8152 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 69.85 307.34 0)
 			(effects
 				(font
@@ -12862,16 +12871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
-			(at 69.85 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 69.85 307.34 0)
 			(effects
 				(font
@@ -13298,7 +13298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C84376.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 345.44 0)
 			(effects
 				(font
@@ -13307,7 +13307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS"
+		(property "Description" "Resistor"
 			(at 144.78 345.44 0)
 			(effects
 				(font
@@ -13933,7 +13933,7 @@
 		(dnp no)
 		(uuid "7b3b85c7-1193-4a4d-9c9d-3f015e7e98c6")
 		(property "Reference" "C11"
-			(at 247.396 181.864 0)
+			(at 244.475 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13941,8 +13941,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 247.904 190.246 0)
+		(property "Value" "C"
+			(at 244.475 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,6 +13951,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 244.8052 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 243.84 186.69 0)
 			(effects
 				(font
@@ -13959,16 +13968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
-			(at 243.84 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 243.84 186.69 0)
 			(effects
 				(font
@@ -14327,7 +14327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C84376.pdf"
+		(property "Datasheet" "~"
 			(at 265.43 318.77 0)
 			(effects
 				(font
@@ -14336,7 +14336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS"
+		(property "Description" "Resistor"
 			(at 265.43 318.77 0)
 			(effects
 				(font
@@ -14614,7 +14614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "C"
 			(at 48.26 308.6099 0)
 			(effects
 				(font
@@ -14632,7 +14632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
+		(property "Datasheet" "~"
 			(at 44.45 307.34 0)
 			(effects
 				(font
@@ -14641,7 +14641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF ±10% 50V Ceramic Capacitor X5R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 44.45 307.34 0)
 			(effects
 				(font
@@ -14882,7 +14882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 199.39 325.1199 0)
 			(effects
 				(font
@@ -14892,6 +14892,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 196.5452 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 195.58 323.85 0)
 			(effects
 				(font
@@ -14900,16 +14909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
-			(at 195.58 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 195.58 323.85 0)
 			(effects
 				(font
@@ -15180,7 +15180,7 @@
 		(dnp no)
 		(uuid "99a90537-dcce-4a5d-9627-87be4d97c0fc")
 		(property "Reference" "C12"
-			(at 63.246 326.898 0)
+			(at 70.485 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15188,8 +15188,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 63.5 329.692 0)
+		(property "Value" "C"
+			(at 70.485 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15206,7 +15206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf"
+		(property "Datasheet" "~"
 			(at 69.85 327.66 0)
 			(effects
 				(font
@@ -15215,7 +15215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 69.85 327.66 0)
 			(effects
 				(font
@@ -17103,7 +17103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C"
 			(at 62.23 308.6099 0)
 			(effects
 				(font
@@ -17121,7 +17121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf"
+		(property "Datasheet" "~"
 			(at 58.42 307.34 0)
 			(effects
 				(font
@@ -17130,7 +17130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
+		(property "Description" "Unpolarized capacitor"
 			(at 58.42 307.34 0)
 			(effects
 				(font
