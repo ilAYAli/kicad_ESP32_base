@@ -9128,7 +9128,7 @@
 		)
 		(uuid "493f296e-0c81-42ee-847d-954dfabf2791")
 	)
-	(label "USB_D-"
+	(label "USB_D+"
 		(at 119.38 346.71 0)
 		(effects
 			(font
@@ -9408,7 +9408,7 @@
 		)
 		(uuid "b12dbf7b-4f1d-4f0f-a9bd-8fbdf084628d")
 	)
-	(label "USB_D+"
+	(label "USB_D-"
 		(at 119.38 344.17 0)
 		(effects
 			(font
