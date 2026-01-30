@@ -3422,7 +3422,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 0 2.3 270)
+			(at -0.2725 3.865 0)
 			(layer "F.Fab")
 			(uuid "ada4e497-274c-4e92-9b0f-3a7e245cddd1")
 			(effects
@@ -5482,10 +5482,9 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 0 1.68 180)
+		(property "Value" "22uF"
+			(at -4.07 -0.1525 180)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "3c180681-14ec-41f9-8436-a4f9114e4051")
 			(effects
 				(font
@@ -5506,7 +5505,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22uF 35V X5R 0805"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5531,272 +5530,12 @@
 				)
 			)
 		)
-		(property "Part" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53d82083-4b41-4c7f-87da-adb27828803d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a7faa2b-bc5a-4334-8e98-69bde634280c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Capacitance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21ab37ae-28cc-4852-920b-f4d0039b61b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c873932a-c248-416b-b533-70932f550410")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Circuits" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdd57ec3-1162-48b5-acf5-18ab708ca9e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Class" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7514100-e598-4647-b9e6-677ef43d544c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Current Rating" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a56683e3-5b7c-4c12-aca7-bbeaa6231ccd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DC Resistance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b725dcc-2dde-4808-9cf8-a1ad2a8fd120")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Impedance @ Frequency" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d91a8cfc-1348-4461-9569-f726d5d626e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fcc1b5e-d9a8-4159-bcd4-855e0c62fbf8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c63c175-4485-40ca-b28d-c5abc941337d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Power(Watts)" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be9e171e-2c77-4556-b6e9-18940f5a8090")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb52cae8-d4b0-4afb-bb87-7dd6355e39b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Process" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08d2a9b2-8a62-4187-867b-f9e1b681f241")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Resistance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aafff32f-7544-43d2-8ad7-bf5ca975fd1e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3d92435-268a-42f6-b32e-815810483da2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c32de13-d4b0-465b-afec-695ece7f7e4c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07a4e1b8-77a8-4263-a556-d6862a3bda38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage Rated" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0bbae83c-44f7-4810-9e0b-e0080f78cdb4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mfr. Part" "CGA0805X5R226M350MT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bb0fb62-fb8d-4ef3-b565-b0679cfa5e37")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70ed606a-def2-41d5-afa7-f9dc2494dbb4")
+			(uuid "53d82083-4b41-4c7f-87da-adb27828803d")
 			(effects
 				(font
 					(size 1 1)
@@ -11744,7 +11483,7 @@
 			(at 0 -1.68 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1b43fb94-43d0-4615-8279-7a6fc4fa5b0d")
+			(uuid "9d95be60-5531-45c3-b29b-953ea849f644")
 			(effects
 				(font
 					(size 1 1)
@@ -11752,11 +11491,10 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 0 1.68 180)
+		(property "Value" "22uF"
+			(at -4.1 -0.0025 180)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b1ec968-78ea-432d-aace-58236735d30b")
+			(uuid "b3b79f36-59fd-498e-a1cd-ea4b2b340339")
 			(effects
 				(font
 					(size 1 1)
@@ -11768,7 +11506,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9283cadd-3255-4d82-8be8-3103d5d38761")
+			(uuid "3d5ce168-ae71-4ce2-9a11-ec9a1261d488")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,11 +11514,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22uF 35V X5R 0805"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "772c12b4-b4de-4047-8fea-c46cc224ffa7")
+			(uuid "b1eb9ae5-fc17-4472-8108-7e536ec1be1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,272 +11539,12 @@
 				)
 			)
 		)
-		(property "Part" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8e93ec4-bdfe-4620-ae0e-bb11aa72624a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf2a7b67-8919-4f23-8527-ef4a18f28cd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Capacitance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab7bc44a-13d7-4ba6-8d7b-5dde40890cb4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbd5d693-f470-44f5-8a19-c630f1bc0d42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Circuits" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d03c9007-2dc4-495e-bb21-0a96a05bfa45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Class" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49e14abb-7fa7-468a-abf7-772a4cbe8b12")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Current Rating" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21ecf1d3-f2b2-44e2-b1a1-b64edc6185df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DC Resistance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21b18e6e-7632-4851-b754-9de4626ecb4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Impedance @ Frequency" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c042ead7-0ee9-45ee-992e-d372436e6a40")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "798dcfd4-c250-452a-9285-5a477bedfc64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5f57266-2b63-44dc-8cf6-6074f6b57c70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Power(Watts)" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63ea2b3c-720c-4508-8b44-9a078e3bbf26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23212d78-d84d-4456-b92f-b7f5a5325800")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Process" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22c63fff-8007-4f07-9e27-49510efd2847")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Resistance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd24f518-f1d6-438d-baf2-c76924de0bee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f52ae7b2-1ef6-460f-85e9-f8f8dcc0ca35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "67ea4212-9d40-4358-8a4a-b675b118310c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ae43aae-a512-4b93-90e6-e845b4dd0c7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage Rated" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba40640c-61d1-426b-956f-9d1c71bf19f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mfr. Part" "CGA0805X5R226M350MT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24cad22e-be0d-4ab6-a871-0d33ee822486")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "971da61b-fb6f-4b2f-84ad-437b09da85f4")
+			(uuid "e8e93ec4-bdfe-4620-ae0e-bb11aa72624a")
 			(effects
 				(font
 					(size 1 1)
@@ -12181,10 +11659,9 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 0 1.68 0)
+		(property "Value" "100nF"
+			(at 4.325 -0.0925 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "caac5a6c-cb50-473d-9a28-d59533dceb6a")
 			(effects
 				(font
@@ -12205,7 +11682,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100nF 50V X7R 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34196,44 +33673,6 @@
 				(xy 140.238599 199.421519) (xy 140.110799 198.866867) (xy 140.1105 198.86424) (xy 140.1105 198.85)
 				(xy 140.103443 198.814521) (xy 140.103817 198.808546) (xy 140.147333 198.677999) (xy 140.153201 198.671235)
 				(xy 140.158433 198.67) (xy 140.341567 198.67)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "88022fe7-f85d-4757-946c-fe7778bf93b5")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30095)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 122.331466 206.309587) (xy 121.977913 205.956034) (xy 121.638527 205.885764) (xy 121.579293 206.180707)
-				(xy 121.638527 206.474236)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 121.977913 205.956034) (xy 122.331466 206.309587) (xy 121.638527 206.474236) (xy 121.579293 206.180707)
-				(xy 121.638527 205.885764)
 			)
 		)
 	)
