@@ -9,6 +9,8 @@
 	(paper "A3" portrait)
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -55,8 +57,30 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.21)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.0175)
+			)
+			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.51)
+				(thickness 1.03)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.0175)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.21)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -67,7 +91,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(thickness 0.035)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -19123,7 +19147,7 @@
 			)
 		)
 	)
-	(gr_text "rev #4ccb191"
+	(gr_text "rev #260102"
 		(at 86 193.86 0)
 		(layer "F.SilkS")
 		(uuid "ec6ec06d-a3c4-44db-917e-8a4349992f60")
