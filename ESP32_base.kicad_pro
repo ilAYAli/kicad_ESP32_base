@@ -489,7 +489,7 @@
         "track_width": 0.7
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.2,
         "name": "GP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
