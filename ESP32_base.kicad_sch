@@ -770,23 +770,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
+			(property "Reference" "J5"
+				(at 3.81 0.9769 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
+			(property "Value" "KH-IPEXA-SMAKWE-B080H"
+				(at 3.81 -1.5631 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "easyeda2kicad:CONN-TH_KH-IPEX-SMAKWE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -795,7 +797,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2919724.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -805,6 +807,42 @@
 				)
 			)
 			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2919724"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. Part" "KH-IPEXA-SMAKWE-B080H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -922,6 +960,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9953,7 +10027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C84376.pdf"
 			(at 44.45 322.58 0)
 			(effects
 				(font
@@ -9962,7 +10036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS"
 			(at 44.45 322.58 0)
 			(effects
 				(font
@@ -9981,24 +10055,6 @@
 			)
 		)
 		(property "Mfr. Part" "RC0805FR-0710KL"
-			(at 44.45 322.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 44.45 322.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 44.45 322.58 90)
 			(effects
 				(font
@@ -10087,24 +10143,6 @@
 		)
 		(property "Mfr. Part" "CC0805KRX7R9BB103"
 			(at 107.95 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 107.95 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 107.95 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,24 +10805,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 127 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 127 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "08388e44-f8a1-4af4-ab64-681f2f189536")
 		)
@@ -11100,7 +11120,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 87.63 176.53 90)
 			(effects
 				(font
@@ -11117,7 +11137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -11145,24 +11165,6 @@
 			)
 		)
 		(property "Mfr. Part" "CC0805KRX7R9BB104"
-			(at 87.63 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 87.63 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 87.63 181.61 90)
 			(effects
 				(font
@@ -11762,7 +11764,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41f85a4a-2585-4039-8da3-bab05a19f77e")
+		(uuid "3c21e436-7feb-4109-a003-bd38bbccd373")
 		(property "Reference" "C7"
 			(at 138.43 180.3399 0)
 			(effects
@@ -11772,7 +11774,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 138.43 182.8799 0)
 			(effects
 				(font
@@ -11790,7 +11792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119901.pdf"
 			(at 134.62 181.61 0)
 			(effects
 				(font
@@ -11799,7 +11801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF ±20% 35V Ceramic Capacitor X5R 0805"
 			(at 134.62 181.61 0)
 			(effects
 				(font
@@ -11826,29 +11828,11 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 134.62 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 134.62 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "1ac87af6-78cf-4fb4-8c21-9b8bc63d6441")
+			(uuid "f168c3cc-8f50-41a9-8f10-21c9a1d737c7")
 		)
 		(pin "2"
-			(uuid "f07b3b54-433b-4d9a-aa3d-9373da1a7631")
+			(uuid "4b15c21f-61f4-4271-8284-cde4f0d9df9c")
 		)
 		(instances
 			(project "ESP32_base"
@@ -12383,7 +12367,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 124.46 182.8799 0)
 			(effects
 				(font
@@ -12401,7 +12385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119901.pdf"
 			(at 120.65 181.61 0)
 			(effects
 				(font
@@ -12410,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF ±20% 35V Ceramic Capacitor X5R 0805"
 			(at 120.65 181.61 0)
 			(effects
 				(font
@@ -12429,24 +12413,6 @@
 			)
 		)
 		(property "Mfr. Part" "CGA0805X5R226M350MT"
-			(at 120.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 120.65 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 120.65 181.61 0)
 			(effects
 				(font
@@ -13163,7 +13129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 73.66 308.6099 0)
 			(effects
 				(font
@@ -13181,7 +13147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
 			(at 69.85 307.34 0)
 			(effects
 				(font
@@ -13190,7 +13156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
 			(at 69.85 307.34 0)
 			(effects
 				(font
@@ -13210,24 +13176,6 @@
 		)
 		(property "Mfr. Part" "CC0805KRX7R9BB104"
 			(at 69.85 307.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 69.85 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 69.85 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +14190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 244.475 189.23 0)
 			(effects
 				(font
@@ -14260,7 +14208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
 			(at 243.84 186.69 0)
 			(effects
 				(font
@@ -14269,7 +14217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
 			(at 243.84 186.69 0)
 			(effects
 				(font
@@ -14289,24 +14237,6 @@
 		)
 		(property "Mfr. Part" "CC0805KRX7R9BB104"
 			(at 243.84 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 243.84 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 243.84 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14664,24 +14594,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 265.43 318.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 265.43 318.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a39c5f20-3cb6-4946-a01b-42564d01206f")
 		)
@@ -14915,7 +14827,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 48.26 308.6099 0)
 			(effects
 				(font
@@ -14933,7 +14845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
 			(at 44.45 307.34 0)
 			(effects
 				(font
@@ -14942,7 +14854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF ±10% 50V Ceramic Capacitor X5R 0805"
 			(at 44.45 307.34 0)
 			(effects
 				(font
@@ -14961,186 +14873,6 @@
 			)
 		)
 		(property "Mfr. Part" "GRM21BR61H106KE43L"
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Circuits" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current Rating" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DC Resistance" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Impedance @ Frequency" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 44.45 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 44.45 307.34 0)
 			(effects
 				(font
@@ -15183,7 +14915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 199.39 325.1199 0)
 			(effects
 				(font
@@ -15201,7 +14933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
 			(at 195.58 323.85 0)
 			(effects
 				(font
@@ -15210,7 +14942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805"
 			(at 195.58 323.85 0)
 			(effects
 				(font
@@ -15230,24 +14962,6 @@
 		)
 		(property "Mfr. Part" "CC0805KRX7R9BB104"
 			(at 195.58 323.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 195.58 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 195.58 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15489,7 +15203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 70.485 330.2 0)
 			(effects
 				(font
@@ -15507,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf"
 			(at 69.85 327.66 0)
 			(effects
 				(font
@@ -15516,7 +15230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
 			(at 69.85 327.66 0)
 			(effects
 				(font
@@ -15536,24 +15250,6 @@
 		)
 		(property "Mfr. Part" "CL21B105KBFNNNE"
 			(at 69.85 327.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 69.85 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 69.85 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,24 +16784,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5651eb51-dab8-4e18-82d9-1fbd7a570fee")
 		)
@@ -17471,6 +17149,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3391a58-54c7-4a0d-b574-31786dab82bd")
+		(property "Reference" "#PWR048"
+			(at 204.47 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2629f8f-7ecd-40d4-9cad-fa245302c034")
+		)
+		(instances
+			(project "ESP32_base"
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 307.34 0)
 		(unit 1)
@@ -17489,7 +17233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 62.23 308.6099 0)
 			(effects
 				(font
@@ -17507,7 +17251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf"
 			(at 58.42 307.34 0)
 			(effects
 				(font
@@ -17516,7 +17260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
 			(at 58.42 307.34 0)
 			(effects
 				(font
@@ -17535,24 +17279,6 @@
 			)
 		)
 		(property "Mfr. Part" "CL21B105KBFNNNE"
-			(at 58.42 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 58.42 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 58.42 307.34 0)
 			(effects
 				(font
@@ -17672,6 +17398,12 @@
 		)
 		(pin "1"
 			(uuid "9d8ef05b-a647-497c-9eaa-566d450e7ede")
+		)
+		(pin "3"
+			(uuid "6916914e-b0da-4ef1-a508-f59f232c535b")
+		)
+		(pin "4"
+			(uuid "ffbdb15b-55d4-4eee-b44a-0e6ce15aa005")
 		)
 		(instances
 			(project "ESP32_base"
@@ -18077,6 +17809,72 @@
 			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda66754-b545-4747-b565-a5ace91d371c")
+		(property "Reference" "#PWR042"
+			(at 201.93 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a2b8c0f-3a44-46b9-8eb3-763a79bf369e")
+		)
+		(instances
+			(project ""
+				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
