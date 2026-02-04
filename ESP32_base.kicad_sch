@@ -3386,6 +3386,78 @@
 				)
 			)
 			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+				(pin power_in line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "SH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -11535,7 +11607,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 44.45 187.9599 0)
 			(effects
 				(font
@@ -11553,7 +11625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
 			(at 40.64 186.69 0)
 			(effects
 				(font
@@ -11562,7 +11634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF ±10% 50V Ceramic Capacitor X5R 0805"
 			(at 40.64 186.69 0)
 			(effects
 				(font
@@ -11581,24 +11653,6 @@
 			)
 		)
 		(property "Mfr. Part" "GRM21BR61H106KE43L"
-			(at 40.64 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 40.64 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 40.64 186.69 0)
 			(effects
 				(font
@@ -15998,6 +16052,18 @@
 		(pin "B1_A12"
 			(uuid "a7e98ee9-1740-4e79-bfec-1b11c9be0402")
 		)
+		(pin "2"
+			(uuid "77289ee7-fb15-446e-ac20-dbc9d6ae5d28")
+		)
+		(pin "1"
+			(uuid "f9e2e9e6-77b9-47df-9ade-352cf6629ee9")
+		)
+		(pin "4"
+			(uuid "c56ea411-94ac-426b-8808-8a2af0e5b00f")
+		)
+		(pin "3"
+			(uuid "1e86d394-c270-4a37-ba19-0b9a3cfd4942")
+		)
 		(instances
 			(project ""
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
@@ -16431,7 +16497,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "AP63203WU-7"
 			(at 67.31 173.99 0)
 			(effects
 				(font
@@ -16476,24 +16542,6 @@
 			)
 		)
 		(property "Mfr. Part" "AP63203WU-7"
-			(at 67.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 67.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" ""
 			(at 67.31 181.61 0)
 			(effects
 				(font
