@@ -3389,32 +3389,14 @@
 				(pin power_in line
 					(at -12.7 15.24 0)
 					(length 2.54)
-					(name "SH4"
+					(name "SH1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "SH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3423,8 +3405,9 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 10.16 0)
+					(at -12.7 15.24 0)
 					(length 2.54)
+					(hide yes)
 					(name "SH2"
 						(effects
 							(font
@@ -3441,16 +3424,36 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 7.62 0)
+					(at -12.7 15.24 0)
 					(length 2.54)
-					(name "SH1"
+					(hide yes)
+					(name "SH3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(hide yes)
+					(name "SH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6959,22 +6962,10 @@
 		(uuid "d4f2ffa7-60ed-4395-a710-87a2ba7018b1")
 	)
 	(junction
-		(at 29.21 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8d44da9-f5a6-4de1-809c-9ca7d19f1762")
-	)
-	(junction
 		(at 107.95 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc558cdb-ef9f-4068-84f8-b8417b26bc63")
-	)
-	(junction
-		(at 29.21 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de5d800b-815a-4e5a-85b0-74d785a266ac")
 	)
 	(junction
 		(at 195.58 327.66)
@@ -6993,12 +6984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e829e0b2-58b7-4637-a905-e85aa81dc0e0")
-	)
-	(junction
-		(at 29.21 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb2c2615-6a24-470a-a2bb-27ec84094ac4")
 	)
 	(junction
 		(at 93.98 170.18)
@@ -7148,6 +7133,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 96.52) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1fbed4-7ac8-456b-a441-25c6bf46ea6e")
+	)
+	(wire
+		(pts
 			(xy 58.42 322.58) (xy 69.85 322.58)
 		)
 		(stroke
@@ -7278,16 +7273,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 96.52) (xy 29.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2190475e-6970-4608-989c-8b25c6669b07")
-	)
-	(wire
-		(pts
 			(xy 143.51 303.53) (xy 143.51 321.31)
 		)
 		(stroke
@@ -7355,16 +7340,6 @@
 			(type default)
 		)
 		(uuid "2a61da79-15b4-4018-9baa-167369c5b7f8")
-	)
-	(wire
-		(pts
-			(xy 29.21 96.52) (xy 29.21 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7237da-2c8f-4a5a-ac1a-9f4ee0b52dc2")
 	)
 	(wire
 		(pts
@@ -7835,16 +7810,6 @@
 			(type default)
 		)
 		(uuid "5b772d93-f89f-425a-8028-c2e9af3dc2bc")
-	)
-	(wire
-		(pts
-			(xy 29.21 101.6) (xy 29.21 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d016b86-f676-458a-9074-dee5914a403d")
 	)
 	(wire
 		(pts
@@ -8448,16 +8413,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 99.06) (xy 29.21 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac09a661-9c8a-43be-991e-cd060f3d22bf")
-	)
-	(wire
-		(pts
 			(xy 193.04 93.98) (xy 196.85 93.98)
 		)
 		(stroke
@@ -8695,6 +8650,16 @@
 			(type default)
 		)
 		(uuid "cd4db719-5049-4a1c-83da-d078df03eb0f")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 29.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d176305d-f494-442d-b7ce-c11a7a18a7d6")
 	)
 	(wire
 		(pts
@@ -14800,7 +14765,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 57.15 96.52 270)
+		(at 55.88 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14809,7 +14774,7 @@
 		(fields_autoplaced yes)
 		(uuid "88848255-4c12-4644-b18e-32b45ad487ae")
 		(property "Reference" "#PWR08"
-			(at 53.34 96.52 0)
+			(at 52.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +14783,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 60.96 96.5199 90)
+			(at 59.69 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,7 +14792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 96.52 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14836,7 +14801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 96.52 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,7 +14810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 96.52 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
