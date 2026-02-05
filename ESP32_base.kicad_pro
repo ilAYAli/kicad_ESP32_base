@@ -475,31 +475,24 @@
         "wire_width": 6
       },
       {
-        "name": "3.3V",
-        "pcb_color": "rgb(194, 0, 0)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7
-      },
-      {
-        "name": "GND",
-        "pcb_color": "rgb(0, 0, 194)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7
-      },
-      {
         "clearance": 0.2,
         "name": "GP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7
       },
       {
         "clearance": 0.15,
         "name": "USBC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -507,7 +500,7 @@
         "diff_pair_width": 0.32,
         "name": "USB_DATA",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -525,11 +518,11 @@
         "pattern": "/USB_D?"
       },
       {
-        "netclass": "GND",
+        "netclass": "PWR",
         "pattern": "GND"
       },
       {
-        "netclass": "3.3V",
+        "netclass": "PWR",
         "pattern": "+3.3V"
       },
       {
@@ -547,6 +540,10 @@
       {
         "netclass": "GP",
         "pattern": "/GPB."
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/VSYS"
       }
     ]
   },
