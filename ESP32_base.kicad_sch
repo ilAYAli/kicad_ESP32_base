@@ -7595,12 +7595,14 @@
 		)
 		(uuid cbaa3ac5-dfee-4b15-a88f-a31c71c6d7ec)
 	)
-	(text "ESP32 Bluetooth LR base"
+	(text "ESP32 BT/WiFi base"
 		(exclude_from_sim no)
-		(at 240.03 38.608 0)
+		(at 240.03 29.718 0)
 		(effects
 			(font
 				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
 			)
 		)
 		(uuid "03b65a88-87d8-4e10-aa1c-eea06e962bdf")
@@ -7707,7 +7709,7 @@
 	)
 	(text "When running on Battery only (No USB):\n  Gate (Pin 1): Pulled to GND by R15 (100kΩ).\n  Source (Pin 2): Connected to VBAT (~3.7V).\n  Result: The Gate is much lower than the Source, so the MOSFET turns ON.\n\nWhen USB is plugged in (+5V present):\n  Source (Pin 2): Still at VBAT (~3.7V).\n  Drain (Pin 3): Connected to VSYS, which is now being fed ~4.7V from the USB through the Schottky diode (D2).\n  Result: The voltage on both sides of the MOSFET is now high, the Gate-to-Source voltage difference disappears. \n  The MOSFET turns OFF, physically disconnecting the battery from the system rail so the USB can take over."
 		(exclude_from_sim no)
-		(at 180.34 60.706 0)
+		(at 180.34 58.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8047,20 +8049,12 @@
 		(uuid "468cf871-01d9-480f-bcd1-bc5e0da59b37")
 	)
 	(no_connect
-		(at 377.19 309.88)
-		(uuid "53b10790-2c03-4754-bd54-8bdfbb1a08d9")
-	)
-	(no_connect
 		(at 377.19 292.1)
 		(uuid "632ed82c-d4d1-4582-a04d-1096dfbbe4f1")
 	)
 	(no_connect
 		(at 270.51 358.14)
 		(uuid "902f664b-034f-404d-ab7b-24eacb1d5ec6")
-	)
-	(no_connect
-		(at 377.19 307.34)
-		(uuid "91a90dfa-9786-4695-a660-dd8bfa0b7d6d")
 	)
 	(no_connect
 		(at 242.57 290.83)
@@ -8550,6 +8544,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 307.34) (xy 377.19 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32299bad-9ef0-4cbf-8ee3-fe63571ffc3e")
+	)
+	(wire
+		(pts
 			(xy 406.4 312.42) (xy 402.59 312.42)
 		)
 		(stroke
@@ -8987,6 +8991,16 @@
 			(type default)
 		)
 		(uuid "66e203a9-46bc-4b09-9eac-994eb9307d68")
+	)
+	(wire
+		(pts
+			(xy 373.38 309.88) (xy 377.19 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6755de77-cbf4-41d9-a6e8-d1c2a11004be")
 	)
 	(wire
 		(pts

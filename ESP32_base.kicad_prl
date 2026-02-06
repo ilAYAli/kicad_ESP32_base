@@ -9,10 +9,10 @@
     "net_color_mode": 2,
     "opacity": {
       "images": 0.5299999713897705,
-      "pads": 0.7599999904632568,
+      "pads": 0.7200000286102295,
       "shapes": 0.9599999785423279,
       "tracks": 1.0,
-      "vias": 1.0,
+      "vias": 0.5400000214576721,
       "zones": 0.20999999344348907
     },
     "selection_filter": {
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
