@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "main.cpp" "lcd.cpp" "temperature.cpp" "ble.cpp" "wifi.cpp" "wifi_prov.cpp" "qrcodegen.c" "qr_display.cpp" "webserver.cpp" "ota.cpp"
+    SRCS "main.cpp" "lcd.cpp" "temperature.cpp" "ble.cpp" "wifi.cpp" "wifi_prov.cpp" "qrcodegen.c" "qr_display.cpp" "webserver.cpp" "ota.cpp" "touch.cpp"
     INCLUDE_DIRS "."
     REQUIRES 
         esp_adc 

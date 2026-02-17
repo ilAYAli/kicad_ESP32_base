@@ -13,6 +13,7 @@
 #include "wifi_prov.hpp"
 #include "webserver.hpp"
 #include "ota.hpp"
+#include "touch.hpp"
 #include "nvs.h"
 #include "pin_config.hpp"
 
@@ -46,6 +47,14 @@ extern "C" void app_main(void)
     if (has_lcd) {
         lcd.setBrightness(32);
         lcd.screenInit();
+
+        // Initialize touch controller
+        if (touch_init() == ESP_OK) {
+            ESP_LOGI("MAIN", "Touch controller initialized");
+        } else {
+            ESP_LOGW("MAIN", "Touch controller not available");
+        }
+
         if (has_wifi) {
             lcd.headerUpdate("WiFi Connecting...", "", false, false);
         } else {
@@ -214,6 +223,28 @@ extern "C" void app_main(void)
         float temp = temp_sensor_read();
         int8_t rssi = show_ble_rssi ? bt_get_rssi() : wifi_get_rssi();
         bool bt_state = bt_is_connected();
+
+        // Poll touch controller if LCD is present
+        if (has_lcd) {
+            static int touch_poll_count = 0;
+            touch_poll_count++;
+
+            // Every 20 polls (~10 seconds), log IRQ state and try raw read for debugging
+            if (touch_poll_count % 20 == 0) {
+                bool pressed = touch_is_pressed();
+                int irq_level = gpio_get_level(static_cast<gpio_num_t>(Pin::TP_IRQ));
+                ESP_LOGI("MAIN", "Touch IRQ: level=%d, pressed=%s", irq_level, pressed ? "YES" : "NO");
+            }
+
+            TouchPoint touch;
+            // Try reading regardless of IRQ for testing
+            if (touch_read(&touch) && touch.touched) {
+                ESP_LOGI("MAIN", "Touch detected at (%d, %d)", touch.x, touch.y);
+                // Draw a small circle at touch position for visual feedback
+                lcd.fillRect(touch.x - 5, touch.y - 5, 10, 10, C_ACCENT);
+            }
+        }
+
         if (!temp_initialized && temp > -50.0f && temp < 100.0f) {
             min_temp = temp;
             max_temp = temp;
