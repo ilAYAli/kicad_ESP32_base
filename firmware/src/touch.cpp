@@ -45,9 +45,9 @@ static uint16_t spi_read_touch(uint8_t command)
 static void IRAM_ATTR touch_isr_handler(void* arg)
 {
     touch_event_pending = true;
-    // Debounce: only wake main task once per 50ms to avoid repeated interrupts
+    // Debounce: only wake main task once per 30ms to catch quick taps
     uint32_t current_tick = xTaskGetTickCountFromISR();
-    if (current_tick - last_isr_tick >= pdMS_TO_TICKS(50) && touch_main_task) {
+    if (current_tick - last_isr_tick >= pdMS_TO_TICKS(30) && touch_main_task) {
         last_isr_tick = current_tick;
         BaseType_t xHigherPriorityTaskWoken = pdFALSE;
         vTaskNotifyGiveFromISR(touch_main_task, &xHigherPriorityTaskWoken);
@@ -136,28 +136,105 @@ bool touch_read(TouchPoint* point)
     if (!point) {
         return false;
     }
-
+    
     touch_event_pending = false;  // Clear event flag
 
-    // Check if touch is still pressed (debounce)
-    if (!touch_is_pressed()) {
+    // Read multiple samples and use median for stability (rejects outliers better than mean)
+    constexpr int NUM_SAMPLES = 9;  // More samples for better median
+    uint16_t samples_x[NUM_SAMPLES];
+    uint16_t samples_y[NUM_SAMPLES];
+    int valid_samples = 0;
+
+    for (int i = 0; i < NUM_SAMPLES; i++) {
+        uint16_t raw_x = spi_read_touch(XPT2046_CMD_X);
+        uint16_t raw_y = spi_read_touch(XPT2046_CMD_Y);
+        
+        // Only use samples with valid coordinates
+        if (raw_x > 100 && raw_x < 4000 && raw_y > 100 && raw_y < 4000) {
+            samples_x[valid_samples] = raw_x;
+            samples_y[valid_samples] = raw_y;
+            valid_samples++;
+        }
+    }
+
+    // Need at least 5 valid samples to consider touch valid
+    if (valid_samples < 5) {
         point->touched = false;
         return false;
     }
 
-    // Read touch coordinates
-    uint16_t raw_x = spi_read_touch(XPT2046_CMD_X);
-    uint16_t raw_y = spi_read_touch(XPT2046_CMD_Y);
+    // Sort samples to find median (simple bubble sort for small array)
+    for (int i = 0; i < valid_samples - 1; i++) {
+        for (int j = 0; j < valid_samples - i - 1; j++) {
+            if (samples_x[j] > samples_x[j + 1]) {
+                uint16_t temp = samples_x[j];
+                samples_x[j] = samples_x[j + 1];
+                samples_x[j + 1] = temp;
+            }
+            if (samples_y[j] > samples_y[j + 1]) {
+                uint16_t temp = samples_y[j];
+                samples_y[j] = samples_y[j + 1];
+                samples_y[j + 1] = temp;
+            }
+        }
+    }
 
-    // Detect touch by coordinate stability instead of pressure
-    // When not touched: X and Y will be unstable (jumping around)
-    // When touched: X and Y will be stable and in valid range
-    bool coords_valid = (raw_x > 100 && raw_x < 4000 && raw_y > 100 && raw_y < 4000);
+    // Use median value (middle element)
+    uint16_t median_x = samples_x[valid_samples / 2];
+    uint16_t median_y = samples_y[valid_samples / 2];
 
-    if (!coords_valid) {
+    // Calculate interquartile range (IQR) to detect outliers
+    // This is more robust than just looking at middle 3 samples
+    int q1_idx = valid_samples / 4;
+    int q3_idx = (3 * valid_samples) / 4;
+    
+    uint16_t iqr_x = samples_x[q3_idx] - samples_x[q1_idx];
+    uint16_t iqr_y = samples_y[q3_idx] - samples_y[q1_idx];
+
+    // Also check full range to catch widely scattered samples
+    uint16_t range_x = samples_x[valid_samples - 1] - samples_x[0];
+    uint16_t range_y = samples_y[valid_samples - 1] - samples_y[0];
+
+    // Reject only if spread is extremely high (very loose threshold due to noisy hardware)
+    // Rely more on application-level filtering for duplicate detection
+    if (iqr_x > 120 || iqr_y > 120 || range_x > 500 || range_y > 500) {
+        ESP_LOGW(TAG, "Touch rejected - high spread: iqr_x=%d iqr_y=%d, range_x=%d range_y=%d, median: X=%d Y=%d", 
+                 iqr_x, iqr_y, range_x, range_y, median_x, median_y);
         point->touched = false;
         return false;
     }
+
+    uint16_t raw_x = median_x;
+    uint16_t raw_y = median_y;
+
+    // Reject phantom touches that occur immediately after a real touch with vastly different coordinates
+    static uint16_t last_raw_x = 0;
+    static uint16_t last_raw_y = 0;
+    static uint32_t last_read_time = 0;
+    uint32_t current_time = xTaskGetTickCount();
+    
+    if (last_raw_x != 0 && last_raw_y != 0) {
+        uint32_t time_diff_ms = (current_time - last_read_time) * portTICK_PERIOD_MS;
+        if (time_diff_ms < 200) {  // Within 200ms of last touch
+            int raw_dx = (int)raw_x - (int)last_raw_x;
+            int raw_dy = (int)raw_y - (int)last_raw_y;
+            if (raw_dx < 0) raw_dx = -raw_dx;
+            if (raw_dy < 0) raw_dy = -raw_dy;
+            // If raw coordinates differ by more than 800 units, likely a phantom
+            if (raw_dx > 800 || raw_dy > 800) {
+                ESP_LOGW(TAG, "Touch rejected - phantom (too different from previous): X=%d Y=%d, prev: X=%d Y=%d, dt=%lums", 
+                         raw_x, raw_y, last_raw_x, last_raw_y, time_diff_ms);
+                point->touched = false;
+                return false;
+            }
+        }
+    }
+    
+    last_raw_x = raw_x;
+    last_raw_y = raw_y;
+    last_read_time = current_time;
+
+    ESP_LOGI(TAG, "Raw touch: X=%d Y=%d (median from %d samples, iqr_x=%d iqr_y=%d)", raw_x, raw_y, valid_samples, iqr_x, iqr_y);
 
     // Map raw coordinates to screen coordinates (320x240)
     // Adjust calibration based on actual observed values

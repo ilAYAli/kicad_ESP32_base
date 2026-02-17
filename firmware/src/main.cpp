@@ -46,7 +46,7 @@ extern "C" void app_main(void)
     float initial_temp = temp_sensor_read();
     // Initialize screen FIRST so it's visible immediately
     if (has_lcd) {
-        lcd.setBrightness(32);
+        lcd.setBrightness(16);
         lcd.screenInit();
 
         // Initialize touch controller with main task handle for immediate wake-up
@@ -102,6 +102,16 @@ extern "C" void app_main(void)
     float min_temp = 0.0f;
     float max_temp = 0.0f;
     uint32_t button_press_start = 0;
+
+    // Touch marker state - track multiple markers to handle phantom presses
+    constexpr int MAX_TOUCH_MARKERS = 10;
+    struct TouchMarker {
+        int x;
+        int y;
+        TickType_t time;
+        bool active;
+    };
+    TouchMarker touch_markers[MAX_TOUCH_MARKERS] = {};
 
     // Start BLE immediately to avoid startup delay
     ESP_LOGI("MAIN", "Starting BLE...");
@@ -222,10 +232,33 @@ extern "C" void app_main(void)
         }
 
         // Check for touch events (IRQ-driven)
+        TickType_t current_time = xTaskGetTickCount();
         if (has_lcd && touch_has_event()) {
             TouchPoint touch;
             if (touch_read(&touch) && touch.touched) {
+                // Raw coordinate jump detection in touch_read() handles phantom filtering
                 ESP_LOGI("MAIN", "Touch at (%d, %d)", touch.x, touch.y);
+                // Draw a larger fingerprint circle at touch location
+                lcd.drawFilledCircle(touch.x, touch.y, 10, 0xFFFF); // White, 10px radius
+                // Store marker in first available slot
+                for (int i = 0; i < MAX_TOUCH_MARKERS; i++) {
+                    if (!touch_markers[i].active) {
+                        touch_markers[i].x = touch.x;
+                        touch_markers[i].y = touch.y;
+                        touch_markers[i].time = current_time;
+                        touch_markers[i].active = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+        // Clear touch markers after 1 second
+        TickType_t now = xTaskGetTickCount();
+        for (int i = 0; i < MAX_TOUCH_MARKERS; i++) {
+            if (touch_markers[i].active && (now - touch_markers[i].time) >= pdMS_TO_TICKS(1000)) {
+                lcd.drawFilledCircle(touch_markers[i].x, touch_markers[i].y, 10, C_PANEL_DK);
+                touch_markers[i].active = false;
             }
         }
 

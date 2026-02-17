@@ -587,6 +587,9 @@ void LCD::headerUpdate(const char* line1, const char* line2, bool wifiConnected,
 void LCD::statusUpdate(const char* label, const char* value, uint16_t valueColor) {
     static char last_label[32] = {0};
     static char last_value[32] = {0};
+    static char last_value_num[32] = {0};
+    static char last_value_suf[16] = {0};
+    static uint16_t last_value_color = 0;
     if (!mutex_) return;
     xSemaphoreTake(mutex_, portMAX_DELAY);
     if (strcmp(label, last_label) != 0) {
@@ -598,14 +601,54 @@ void LCD::statusUpdate(const char* label, const char* value, uint16_t valueColor
         }
         strncpy(last_label, label, sizeof(last_label) - 1);
     }
-    if (strcmp(value, last_value) != 0) {
-        fillRectInternal(STATUS_TEXT_X + 100, STATUS_TEXT_Y, 120, 16, LCDColors::BG_TOP);
-        int x = STATUS_TEXT_X + 100;
-        for (const char* p = value; *p; p++) {
-            drawChar(x, STATUS_TEXT_Y, *p, valueColor, LCDColors::BG_TOP, STATUS_VALUE_SCALE);
-            x += (FONT_WIDTH + 1) * STATUS_VALUE_SCALE;
+    if (strcmp(value, last_value) != 0 || valueColor != last_value_color) {
+        const char* suffix = std::strrchr(value, ' ');
+        if (suffix && *(suffix + 1) != '\0') {
+            char num_buf[32] = {0};
+            size_t num_len = static_cast<size_t>(suffix - value);
+            if (num_len >= sizeof(num_buf)) num_len = sizeof(num_buf) - 1;
+            memcpy(num_buf, value, num_len);
+            num_buf[num_len] = '\0';
+            const char* suf = suffix + 1;
+
+            const int value_x = STATUS_TEXT_X + 100;
+            const int num_width = 72;
+            const int suf_width = 48;
+            const int suf_x = value_x + num_width;
+
+            bool num_changed = (strcmp(num_buf, last_value_num) != 0) || (valueColor != last_value_color);
+            bool suf_changed = (strcmp(suf, last_value_suf) != 0) || (valueColor != last_value_color);
+
+            if (num_changed) {
+                fillRectInternal(value_x, STATUS_TEXT_Y, num_width, 16, LCDColors::BG_TOP);
+                int x = value_x;
+                for (const char* p = num_buf; *p; p++) {
+                    drawChar(x, STATUS_TEXT_Y, *p, valueColor, LCDColors::BG_TOP, STATUS_VALUE_SCALE);
+                    x += (FONT_WIDTH + 1) * STATUS_VALUE_SCALE;
+                }
+                strncpy(last_value_num, num_buf, sizeof(last_value_num) - 1);
+            }
+            if (suf_changed) {
+                fillRectInternal(suf_x, STATUS_TEXT_Y, suf_width, 16, LCDColors::BG_TOP);
+                int x = suf_x;
+                for (const char* p = suf; *p; p++) {
+                    drawChar(x, STATUS_TEXT_Y, *p, valueColor, LCDColors::BG_TOP, STATUS_VALUE_SCALE);
+                    x += (FONT_WIDTH + 1) * STATUS_VALUE_SCALE;
+                }
+                strncpy(last_value_suf, suf, sizeof(last_value_suf) - 1);
+            }
+        } else {
+            fillRectInternal(STATUS_TEXT_X + 100, STATUS_TEXT_Y, 120, 16, LCDColors::BG_TOP);
+            int x = STATUS_TEXT_X + 100;
+            for (const char* p = value; *p; p++) {
+                drawChar(x, STATUS_TEXT_Y, *p, valueColor, LCDColors::BG_TOP, STATUS_VALUE_SCALE);
+                x += (FONT_WIDTH + 1) * STATUS_VALUE_SCALE;
+            }
+            strncpy(last_value_num, value, sizeof(last_value_num) - 1);
+            last_value_suf[0] = '\0';
         }
         strncpy(last_value, value, sizeof(last_value) - 1);
+        last_value_color = valueColor;
     }
     xSemaphoreGive(mutex_);
 }
@@ -618,115 +661,7 @@ void LCD::bodyInit() {
 void LCD::bodyDrawGraph(LCDGraph* graph) {
     if (!mutex_) return;
     xSemaphoreTake(mutex_, portMAX_DELAY);
-    if (!graph || graph->getSampleCount() < 1) {
-        xSemaphoreGive(mutex_);
-        return;
-    }
-
-    static bool frame_drawn = false;
-    static int last_write_idx = -1;
-    static float last_min_t = 1000.0f;
-    static float last_max_t = -1000.0f;
-
-    const int margin = 10;
-    const int plot_w = BODY_GRAPH_W - 2 * margin;
-    const int plot_h = BODY_GRAPH_H - 2 * margin;
-    const int x0 = BODY_GRAPH_X + margin;
-    const int y0 = BODY_GRAPH_Y + margin;
-
-    if (!frame_drawn) {
-        drawGraphFrame(BODY_GRAPH_X, BODY_GRAPH_Y, BODY_GRAPH_W, BODY_GRAPH_H);
-        frame_drawn = true;
-    }
-
-    int write_idx = graph->getWriteIndex();
-    if (write_idx == last_write_idx) {
-        xSemaphoreGive(mutex_);
-        return;
-    }
-    last_write_idx = write_idx;
-
-    const float* history = graph->getHistory();
-    int capacity = graph->getCapacity();
-    float min_t = 100.0f;
-    float max_t = -100.0f;
-    for (int i = 0; i < capacity; i++) {
-        min_t = std::min(min_t, history[i]);
-        max_t = std::max(max_t, history[i]);
-    }
-    float range = (max_t - min_t < 2.0f) ? 2.0f : (max_t - min_t);
-    min_t -= range * 0.1f;
-    max_t += range * 0.1f;
-    range = max_t - min_t;
-
-    bool range_changed = (std::fabsf(min_t - last_min_t) > 1.0f) || (std::fabsf(max_t - last_max_t) > 1.0f);
-    last_min_t = min_t;
-    last_max_t = max_t;
-
-    if (range_changed) {
-        drawGraphPlot(graph, BODY_GRAPH_X, BODY_GRAPH_Y, BODY_GRAPH_W, BODY_GRAPH_H);
-        xSemaphoreGive(mutex_);
-        return;
-    }
-
-    int cur_idx = (write_idx - 1 + capacity) % capacity;
-    int prev_idx = (write_idx - 2 + capacity) % capacity;
-    float cur_val = history[cur_idx];
-    float prev_val = history[prev_idx];
-
-    int y_cur = plot_h - static_cast<int>((cur_val - min_t) * plot_h / range);
-    int y_prev = plot_h - static_cast<int>((prev_val - min_t) * plot_h / range);
-    y_cur = std::clamp(y_cur, 0, plot_h - 1);
-    y_prev = std::clamp(y_prev, 0, plot_h - 1);
-
-    int x_col = (write_idx - 1 + plot_w) % plot_w;
-    bool is_grid_col = false;
-    for (int i = 1; i < 6; i++) {
-        int grid_pos = (BODY_GRAPH_W * i / 6) - margin;
-        if (x_col == grid_pos) {
-            is_grid_col = true;
-            break;
-        }
-    }
-
-    auto col_buf = std::unique_ptr<uint16_t[]>(
-        static_cast<uint16_t*>(heap_caps_malloc(plot_h * sizeof(uint16_t), MALLOC_CAP_DMA))
-    );
-    if (!col_buf) {
-        xSemaphoreGive(mutex_);
-        return;
-    }
-
-    uint16_t bg_color = __builtin_bswap16(LCDColors::PANEL_DK);
-    uint16_t grid_color = __builtin_bswap16(LCDColors::GRID);
-    uint16_t line_color = __builtin_bswap16(LCDColors::ACCENT);
-    int y_start = std::min(y_prev, y_cur);
-    int y_end = std::max(y_prev, y_cur);
-
-    for (int row = 0; row < plot_h; row++) {
-        bool is_grid_row = false;
-        for (int i = 1; i < 4; i++) {
-            int grid_pos = (BODY_GRAPH_H * i / 4) - margin;
-            if (row == grid_pos) {
-                is_grid_row = true;
-                break;
-            }
-        }
-        if (row >= y_start && row <= y_end) {
-            col_buf[row] = line_color;
-        } else if (is_grid_row || is_grid_col) {
-            col_buf[row] = grid_color;
-        } else {
-            col_buf[row] = bg_color;
-        }
-    }
-
-    setWindow(static_cast<uint16_t>(x0 + x_col), static_cast<uint16_t>(y0), 1, static_cast<uint16_t>(plot_h));
-    gpio_set_level(static_cast<gpio_num_t>(Pin::LCD_DC), 1);
-    spi_transaction_t t = {};
-    t.length = static_cast<size_t>(plot_h) * 16;
-    t.tx_buffer = col_buf.get();
-    spi_device_transmit(spiHandle_, &t);
+    drawGraphPlot(graph, BODY_GRAPH_X, BODY_GRAPH_Y, BODY_GRAPH_W, BODY_GRAPH_H);
     xSemaphoreGive(mutex_);
 }
 void LCD::footerUpdate(float value, float min, float max, const char* unit, const char* version) {
