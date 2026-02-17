@@ -19,7 +19,8 @@
 
 static constexpr int HISTORY_LEN = 280;
 static constexpr int POWER_SAVE_INTERVAL_MS = 60000;  // 60 seconds when LCD not present
-static constexpr int NORMAL_INTERVAL_MS = 500;        // 0.5 seconds with LCD (for smooth graph)
+static constexpr int NORMAL_INTERVAL_MS = 500;        // 0.5 seconds with LCD (UI cadence)
+static constexpr int GRAPH_UPDATE_INTERVAL_MS = 1000; // Throttle graph redraws to reduce flicker
 extern "C" void app_main(void)
 {
     esp_err_t ret = nvs_flash_init();
@@ -48,8 +49,8 @@ extern "C" void app_main(void)
         lcd.setBrightness(32);
         lcd.screenInit();
 
-        // Initialize touch controller
-        if (touch_init() == ESP_OK) {
+        // Initialize touch controller with main task handle for immediate wake-up
+        if (touch_init(xTaskGetCurrentTaskHandle()) == ESP_OK) {
             ESP_LOGI("MAIN", "Touch controller initialized");
         } else {
             ESP_LOGW("MAIN", "Touch controller not available");
@@ -220,30 +221,51 @@ extern "C" void app_main(void)
             ble_started = false;
         }
 
+        // Check for touch events (IRQ-driven)
+        if (has_lcd && touch_has_event()) {
+            TouchPoint touch;
+            if (touch_read(&touch) && touch.touched) {
+                ESP_LOGI("MAIN", "Touch at (%d, %d)", touch.x, touch.y);
+            }
+        }
+
+        static TickType_t last_ui_tick = 0;
+        // Adjust update frequency based on power save mode
+        // If waiting for OTA to start, check more frequently (1s) to catch WiFi connection quickly
+        uint32_t update_interval_ms;
+        if (enable_power_save && !ota_started) {
+            update_interval_ms = 1000;  // Check every second until OTA starts
+        } else {
+            update_interval_ms = enable_power_save
+                ? POWER_SAVE_INTERVAL_MS
+                : NORMAL_INTERVAL_MS;
+        }
+        TickType_t now_tick = xTaskGetTickCount();
+        TickType_t update_interval_ticks = pdMS_TO_TICKS(update_interval_ms);
+        if (last_ui_tick == 0) {
+            last_ui_tick = now_tick - update_interval_ticks;
+        }
+        TickType_t elapsed_ticks = now_tick - last_ui_tick;
+        if (elapsed_ticks < update_interval_ticks) {
+            TickType_t remaining_ticks = update_interval_ticks - elapsed_ticks;
+            xTaskNotifyWait(0, 0, nullptr, remaining_ticks);
+            continue;
+        }
+        last_ui_tick = now_tick;
+
+        static TickType_t last_graph_tick = 0;
+        bool graph_update_due = false;
+        if (last_graph_tick == 0) {
+            last_graph_tick = now_tick - pdMS_TO_TICKS(GRAPH_UPDATE_INTERVAL_MS);
+        }
+        if (now_tick - last_graph_tick >= pdMS_TO_TICKS(GRAPH_UPDATE_INTERVAL_MS)) {
+            graph_update_due = true;
+            last_graph_tick = now_tick;
+        }
+
         float temp = temp_sensor_read();
         int8_t rssi = show_ble_rssi ? bt_get_rssi() : wifi_get_rssi();
         bool bt_state = bt_is_connected();
-
-        // Poll touch controller if LCD is present
-        if (has_lcd) {
-            static int touch_poll_count = 0;
-            touch_poll_count++;
-
-            // Every 20 polls (~10 seconds), log IRQ state and try raw read for debugging
-            if (touch_poll_count % 20 == 0) {
-                bool pressed = touch_is_pressed();
-                int irq_level = gpio_get_level(static_cast<gpio_num_t>(Pin::TP_IRQ));
-                ESP_LOGI("MAIN", "Touch IRQ: level=%d, pressed=%s", irq_level, pressed ? "YES" : "NO");
-            }
-
-            TouchPoint touch;
-            // Try reading regardless of IRQ for testing
-            if (touch_read(&touch) && touch.touched) {
-                ESP_LOGI("MAIN", "Touch detected at (%d, %d)", touch.x, touch.y);
-                // Draw a small circle at touch position for visual feedback
-                lcd.fillRect(touch.x - 5, touch.y - 5, 10, 10, C_ACCENT);
-            }
-        }
 
         if (!temp_initialized && temp > -50.0f && temp < 100.0f) {
             min_temp = temp;
@@ -262,8 +284,9 @@ extern "C" void app_main(void)
                     }
                 }
                 rssi_initialized = true;
+                graph_update_due = true;
             }
-            if (has_lcd) {
+            if (has_lcd && graph_update_due) {
                 rssi_graph.addSample((float)rssi);
             }
         } else if (show_ble_rssi && bt_state) {
@@ -275,8 +298,9 @@ extern "C" void app_main(void)
                     }
                 }
                 rssi_initialized = true;
+                graph_update_due = true;
             }
-            if (has_lcd) {
+            if (has_lcd && graph_update_due) {
                 rssi_graph.addSample((float)rssi);
             }
         }
@@ -302,7 +326,7 @@ extern "C" void app_main(void)
             snprintf(rssi_str, sizeof(rssi_str), "%d dBm", rssi);
             const char* rssi_label = show_ble_rssi ? "BT RSSI:" : "WiFi RSSI:";
             lcd.statusUpdate(rssi_label, rssi_str, rssi_color);
-            if (rssi_initialized) {
+            if (rssi_initialized && graph_update_due) {
                 lcd.bodyDrawGraph(&rssi_graph);
             }
             if (temp_initialized) {
@@ -310,16 +334,7 @@ extern "C" void app_main(void)
             }
         }
 
-        // Adjust update frequency based on power save mode
-        // If waiting for OTA to start, check more frequently (1s) to catch WiFi connection quickly
-        uint32_t update_interval_ms;
-        if (enable_power_save && !ota_started) {
-            update_interval_ms = 1000;  // Check every second until OTA starts
-        } else {
-            update_interval_ms = enable_power_save
-                ? POWER_SAVE_INTERVAL_MS
-                : NORMAL_INTERVAL_MS;
-        }
-        vTaskDelay(pdMS_TO_TICKS(update_interval_ms));
+        // Use notification to wake immediately on touch, but still sleep normally otherwise
+        xTaskNotifyWait(0, 0, nullptr, update_interval_ticks);
     }
 }
