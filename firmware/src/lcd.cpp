@@ -125,7 +125,7 @@ LCD::LCD()
     sendCommand(ST7735::SLPOUT);
     vTaskDelay(pdMS_TO_TICKS(120));
     sendCommand(ST7735::MADCTL);
-    uint8_t madctl = 0xA0;
+    uint8_t madctl = 0xE0;  // LCD: red: 0xE0, green 0xa0;
     sendData(&madctl, 1);
     sendCommand(ST7735::COLMOD);
     uint8_t colmod = 0x05;
