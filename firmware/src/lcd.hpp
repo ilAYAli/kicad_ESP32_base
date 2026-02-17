@@ -65,6 +65,7 @@ public:
     void showMessage(const char* message, int progress = -1);
     // Low-level drawing (public for QR code display)
     void fillRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t color);
+    void drawFilledCircle(uint16_t cx, uint16_t cy, uint16_t r, uint16_t color);
     void drawString(uint16_t x, uint16_t y, const char* s, uint16_t fg, uint16_t bg, uint8_t scale = 1);
 private:
     // Hardware communication
@@ -76,7 +77,6 @@ private:
     void fillGradientV(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t c1, uint16_t c2);
     void drawChar(uint16_t x, uint16_t y, char c, uint16_t fg, uint16_t bg, uint8_t scale);
     void drawLine(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint16_t color, uint8_t thickness = 1);
-    void drawFilledCircle(uint16_t cx, uint16_t cy, uint16_t r, uint16_t color);
     void drawRoundedRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t r, uint16_t color);
     void drawPanel(uint16_t x, uint16_t y, uint16_t w, uint16_t h);
     // Icon drawing

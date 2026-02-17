@@ -10,20 +10,30 @@
 #include <cstring>
 #include <cstdio>
 #include <algorithm>
+#include <cmath>
 // External icon files
 #include "wifi_icon.c"
 #include "bt_icon.c"
 static const char* TAG = "LCD";
-// ST7735 Commands
-namespace ST7735 {
-    constexpr uint8_t CASET  = 0x2A;
-    constexpr uint8_t RASET  = 0x2B;
-    constexpr uint8_t RAMWR  = 0x2C;
-    constexpr uint8_t MADCTL = 0x36;
-    constexpr uint8_t COLMOD = 0x3A;
-    constexpr uint8_t SLPOUT = 0x11;
-    constexpr uint8_t DISPON = 0x29;
-    constexpr uint8_t SWRST  = 0x01;
+// ILI9341 Commands
+namespace ILI9341 {
+    constexpr uint8_t SWRST   = 0x01;
+    constexpr uint8_t SLPOUT  = 0x11;
+    constexpr uint8_t GAMSET  = 0x26;
+    constexpr uint8_t DISPON  = 0x29;
+    constexpr uint8_t CASET   = 0x2A;
+    constexpr uint8_t RASET   = 0x2B;
+    constexpr uint8_t RAMWR   = 0x2C;
+    constexpr uint8_t MADCTL  = 0x36;
+    constexpr uint8_t PIXSET  = 0x3A;
+    constexpr uint8_t FRMCTR1 = 0xB1;
+    constexpr uint8_t DFUNCTR = 0xB6;
+    constexpr uint8_t PWCTR1  = 0xC0;
+    constexpr uint8_t PWCTR2  = 0xC1;
+    constexpr uint8_t VMCTR1  = 0xC5;
+    constexpr uint8_t VMCTR2  = 0xC7;
+    constexpr uint8_t PGAMCTRL = 0xE0;
+    constexpr uint8_t NGAMCTRL = 0xE1;
 }
 // Hardware configuration
 namespace HWConfig {
@@ -119,18 +129,54 @@ LCD::LCD()
     vTaskDelay(pdMS_TO_TICKS(10));
     gpio_set_level(static_cast<gpio_num_t>(Pin::LCD_RST), 1);
     vTaskDelay(pdMS_TO_TICKS(120));
-    // ST7735 initialization sequence
-    sendCommand(ST7735::SWRST);
-    vTaskDelay(pdMS_TO_TICKS(150));
-    sendCommand(ST7735::SLPOUT);
+    // ILI9341 initialization sequence
+    sendCommand(ILI9341::SWRST);
     vTaskDelay(pdMS_TO_TICKS(120));
-    sendCommand(ST7735::MADCTL);
-    uint8_t madctl = 0xE0;  // LCD: red: 0xE0, green 0xa0;
+    sendCommand(ILI9341::SLPOUT);
+    vTaskDelay(pdMS_TO_TICKS(120));
+    // Power control
+    sendCommand(ILI9341::PWCTR1);
+    uint8_t pwr1[] = {0x23};
+    sendData(pwr1, 1);
+    sendCommand(ILI9341::PWCTR2);
+    uint8_t pwr2[] = {0x10};
+    sendData(pwr2, 1);
+    // VCOM control
+    sendCommand(ILI9341::VMCTR1);
+    uint8_t vcom1[] = {0x3E, 0x28};
+    sendData(vcom1, 2);
+    sendCommand(ILI9341::VMCTR2);
+    uint8_t vcom2[] = {0x86};
+    sendData(vcom2, 1);
+    // Memory access control (rotation/mirroring)
+    sendCommand(ILI9341::MADCTL);
+    uint8_t madctl = 0xE0;  // Portrait 240x320: MY=1, MX=1, MV=1, RGB=0
     sendData(&madctl, 1);
-    sendCommand(ST7735::COLMOD);
-    uint8_t colmod = 0x05;
-    sendData(&colmod, 1);
-    sendCommand(ST7735::DISPON);
+    // Pixel format: 16-bit RGB565
+    sendCommand(ILI9341::PIXSET);
+    uint8_t pixfmt = 0x55;
+    sendData(&pixfmt, 1);
+    // Frame rate control
+    sendCommand(ILI9341::FRMCTR1);
+    uint8_t frmctr[] = {0x00, 0x18};
+    sendData(frmctr, 2);
+    // Display function control
+    sendCommand(ILI9341::DFUNCTR);
+    uint8_t dfunc[] = {0x08, 0x82, 0x27};
+    sendData(dfunc, 3);
+    // Gamma set
+    sendCommand(ILI9341::GAMSET);
+    uint8_t gamma = 0x01;
+    sendData(&gamma, 1);
+    // Positive gamma correction
+    sendCommand(ILI9341::PGAMCTRL);
+    uint8_t pgam[] = {0x0F, 0x31, 0x2B, 0x0C, 0x0E, 0x08, 0x4E, 0xF1, 0x37, 0x07, 0x10, 0x03, 0x0E, 0x09, 0x00};
+    sendData(pgam, 15);
+    // Negative gamma correction
+    sendCommand(ILI9341::NGAMCTRL);
+    uint8_t ngam[] = {0x00, 0x0E, 0x14, 0x03, 0x11, 0x07, 0x31, 0xC1, 0x48, 0x08, 0x0F, 0x0C, 0x31, 0x36, 0x0F};
+    sendData(ngam, 15);
+    sendCommand(ILI9341::DISPON);
     vTaskDelay(pdMS_TO_TICKS(100));
     // Setup PWM for backlight
     ledc_timer_config_t timer_cfg = {};
@@ -174,13 +220,13 @@ void LCD::setWindow(uint16_t x, uint16_t y, uint16_t w, uint16_t h) {
     uint8_t buf[4];
     uint16_t x_end = x + w - 1;
     uint16_t y_end = y + h - 1;
-    sendCommand(ST7735::CASET);
+    sendCommand(ILI9341::CASET);
     buf[0] = x >> 8; buf[1] = x & 0xFF; buf[2] = x_end >> 8; buf[3] = x_end & 0xFF;
     sendData(buf, 4);
-    sendCommand(ST7735::RASET);
+    sendCommand(ILI9341::RASET);
     buf[0] = y >> 8; buf[1] = y & 0xFF; buf[2] = y_end >> 8; buf[3] = y_end & 0xFF;
     sendData(buf, 4);
-    sendCommand(ST7735::RAMWR);
+    sendCommand(ILI9341::RAMWR);
 }
 uint16_t LCD::blend(uint16_t c1, uint16_t c2, uint8_t alpha) {
     uint8_t r1 = (c1 >> 11) & 0x1F, g1 = (c1 >> 5) & 0x3F, b1 = c1 & 0x1F;
@@ -572,7 +618,115 @@ void LCD::bodyInit() {
 void LCD::bodyDrawGraph(LCDGraph* graph) {
     if (!mutex_) return;
     xSemaphoreTake(mutex_, portMAX_DELAY);
-    drawGraphPlot(graph, BODY_GRAPH_X, BODY_GRAPH_Y, BODY_GRAPH_W, BODY_GRAPH_H);
+    if (!graph || graph->getSampleCount() < 1) {
+        xSemaphoreGive(mutex_);
+        return;
+    }
+
+    static bool frame_drawn = false;
+    static int last_write_idx = -1;
+    static float last_min_t = 1000.0f;
+    static float last_max_t = -1000.0f;
+
+    const int margin = 10;
+    const int plot_w = BODY_GRAPH_W - 2 * margin;
+    const int plot_h = BODY_GRAPH_H - 2 * margin;
+    const int x0 = BODY_GRAPH_X + margin;
+    const int y0 = BODY_GRAPH_Y + margin;
+
+    if (!frame_drawn) {
+        drawGraphFrame(BODY_GRAPH_X, BODY_GRAPH_Y, BODY_GRAPH_W, BODY_GRAPH_H);
+        frame_drawn = true;
+    }
+
+    int write_idx = graph->getWriteIndex();
+    if (write_idx == last_write_idx) {
+        xSemaphoreGive(mutex_);
+        return;
+    }
+    last_write_idx = write_idx;
+
+    const float* history = graph->getHistory();
+    int capacity = graph->getCapacity();
+    float min_t = 100.0f;
+    float max_t = -100.0f;
+    for (int i = 0; i < capacity; i++) {
+        min_t = std::min(min_t, history[i]);
+        max_t = std::max(max_t, history[i]);
+    }
+    float range = (max_t - min_t < 2.0f) ? 2.0f : (max_t - min_t);
+    min_t -= range * 0.1f;
+    max_t += range * 0.1f;
+    range = max_t - min_t;
+
+    bool range_changed = (std::fabsf(min_t - last_min_t) > 1.0f) || (std::fabsf(max_t - last_max_t) > 1.0f);
+    last_min_t = min_t;
+    last_max_t = max_t;
+
+    if (range_changed) {
+        drawGraphPlot(graph, BODY_GRAPH_X, BODY_GRAPH_Y, BODY_GRAPH_W, BODY_GRAPH_H);
+        xSemaphoreGive(mutex_);
+        return;
+    }
+
+    int cur_idx = (write_idx - 1 + capacity) % capacity;
+    int prev_idx = (write_idx - 2 + capacity) % capacity;
+    float cur_val = history[cur_idx];
+    float prev_val = history[prev_idx];
+
+    int y_cur = plot_h - static_cast<int>((cur_val - min_t) * plot_h / range);
+    int y_prev = plot_h - static_cast<int>((prev_val - min_t) * plot_h / range);
+    y_cur = std::clamp(y_cur, 0, plot_h - 1);
+    y_prev = std::clamp(y_prev, 0, plot_h - 1);
+
+    int x_col = (write_idx - 1 + plot_w) % plot_w;
+    bool is_grid_col = false;
+    for (int i = 1; i < 6; i++) {
+        int grid_pos = (BODY_GRAPH_W * i / 6) - margin;
+        if (x_col == grid_pos) {
+            is_grid_col = true;
+            break;
+        }
+    }
+
+    auto col_buf = std::unique_ptr<uint16_t[]>(
+        static_cast<uint16_t*>(heap_caps_malloc(plot_h * sizeof(uint16_t), MALLOC_CAP_DMA))
+    );
+    if (!col_buf) {
+        xSemaphoreGive(mutex_);
+        return;
+    }
+
+    uint16_t bg_color = __builtin_bswap16(LCDColors::PANEL_DK);
+    uint16_t grid_color = __builtin_bswap16(LCDColors::GRID);
+    uint16_t line_color = __builtin_bswap16(LCDColors::ACCENT);
+    int y_start = std::min(y_prev, y_cur);
+    int y_end = std::max(y_prev, y_cur);
+
+    for (int row = 0; row < plot_h; row++) {
+        bool is_grid_row = false;
+        for (int i = 1; i < 4; i++) {
+            int grid_pos = (BODY_GRAPH_H * i / 4) - margin;
+            if (row == grid_pos) {
+                is_grid_row = true;
+                break;
+            }
+        }
+        if (row >= y_start && row <= y_end) {
+            col_buf[row] = line_color;
+        } else if (is_grid_row || is_grid_col) {
+            col_buf[row] = grid_color;
+        } else {
+            col_buf[row] = bg_color;
+        }
+    }
+
+    setWindow(static_cast<uint16_t>(x0 + x_col), static_cast<uint16_t>(y0), 1, static_cast<uint16_t>(plot_h));
+    gpio_set_level(static_cast<gpio_num_t>(Pin::LCD_DC), 1);
+    spi_transaction_t t = {};
+    t.length = static_cast<size_t>(plot_h) * 16;
+    t.tx_buffer = col_buf.get();
+    spi_device_transmit(spiHandle_, &t);
     xSemaphoreGive(mutex_);
 }
 void LCD::footerUpdate(float value, float min, float max, const char* unit, const char* version) {
