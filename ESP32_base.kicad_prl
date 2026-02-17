@@ -13,7 +13,7 @@
       "shapes": 0.9599999785423279,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.3499999940395355
+      "zones": 0.07000000029802322
     },
     "selection_filter": {
       "dimensions": true,
@@ -101,7 +101,9 @@
       103,
       74,
       103,
-      103
+      111,
+      111,
+      105
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
