@@ -1,0 +1,26 @@
+(version 1)
+
+# Minimum Drill Size for Vias/PTH
+(rule "Minimum Hole"
+    (constraint hole_size (min 0.2mm)))
+
+# Minimum Drill Size for Non-Plated Mechanical Holes
+(rule "NPTH Hole"
+    (condition "A.Type == 'pad' && !A.isPlated()")
+    (constraint hole_size (min 0.5mm)))
+
+# Minimum distance from track to board edge
+(rule "Edge Clearance"
+    (constraint edge_clearance (min 0.3mm)))
+
+# Minimum physical distance between drill holes
+(rule "Hole to Hole"
+    (constraint hole_to_hole (min 0.5mm)))
+
+
+# less strict DRC around MCU pads 
+(rule "reduced_clearance"
+   (constraint clearance (min 0.15mm))
+   (condition "A.insideArea('reduced_clearance') || B.insideArea('reduced_clearance')"))
+
+

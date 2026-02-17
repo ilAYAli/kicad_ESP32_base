@@ -1,0 +1,2576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/pwahlman/Cloud-Drive/code/PCB/kicad_ESP32_base/ESP32_base.kicad_sch</source>
+    <date>2026-01-13T16:45:03+0100</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>v.6e07b40</rev>
+        <date>2026-01-05</date>
+        <source>ESP32_base.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C83170.pdf</datasheet>
+      <description>10nF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C83170</field>
+        <field name="Part">CC0805KRX7R9BB103</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C83170.pdf</field>
+        <field name="Description">10nF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="PCM_JLCPCB-Capacitors" part="1206,10nF" description="50V 10nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C83170"/>
+      <property name="Part" value="CC0805KRX7R9BB103"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09748f80-7bca-4f1e-9d6e-6d0436fa4954</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C49678.pdf</datasheet>
+      <description>100nF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C49678</field>
+        <field name="Mrf">CC0805KRX7R9BB104</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C49678.pdf</field>
+        <field name="Description">100nF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="PCM_JLCPCB-Capacitors" part="1206,100nF" description="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Mrf" value="CC0805KRX7R9BB104"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1867a8cb-4ce7-4eff-97cb-fd45029ba46d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C437557.pdf</datasheet>
+      <description>4.7uF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C437557</field>
+        <field name="Part">GRM21BZ71H475KE15L</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C437557.pdf</field>
+        <field name="Description">4.7uF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="PCM_JLCPCB-Capacitors" part="1206,4.7uF" description="50V 4.7uF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C437557"/>
+      <property name="Part" value="GRM21BZ71H475KE15L"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caf98f7d-9f89-47c3-bcba-5c74d517b4c1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C440198.pdf</datasheet>
+      <description>10uF ±10% 50V Ceramic Capacitor X5R 0805</description>
+      <fields>
+        <field name="LCSC">C440198</field>
+        <field name="Part">GRM21BR61H106KE43L</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C440198.pdf</field>
+        <field name="Description">10uF ±10% 50V Ceramic Capacitor X5R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
+      <property name="Part" value="GRM21BR61H106KE43L"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35086e6f-be9f-4453-bdca-287930401196</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C49678.pdf</datasheet>
+      <description>100nF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C49678</field>
+        <field name="Part">CC0805KRX7R9BB104</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C49678.pdf</field>
+        <field name="Description">100nF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Part" value="CC0805KRX7R9BB104"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>261f8f68-e116-4043-9e1a-5e0fee77be04</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C6119901.pdf</datasheet>
+      <description>22uF ±20% 35V Ceramic Capacitor X5R 0805</description>
+      <fields>
+        <field name="LCSC">C6119901</field>
+        <field name="Part">CGA0805X5R226M350MT</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C6119901.pdf</field>
+        <field name="Description">22uF ±20% 35V Ceramic Capacitor X5R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C6119901"/>
+      <property name="Part" value="CGA0805X5R226M350MT"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a3fccb6-c3ea-4ec2-acf9-e0a6879e12a4</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C6119901.pdf</datasheet>
+      <description>22uF ±20% 35V Ceramic Capacitor X5R 0805</description>
+      <fields>
+        <field name="LCSC">C6119901</field>
+        <field name="Part">CGA0805X5R226M350MT</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C6119901.pdf</field>
+        <field name="Description">22uF ±20% 35V Ceramic Capacitor X5R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C6119901"/>
+      <property name="Part" value="CGA0805X5R226M350MT"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41f85a4a-2585-4039-8da3-bab05a19f77e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C49678.pdf</datasheet>
+      <description>100nF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C49678</field>
+        <field name="Part">CC0805KRX7R9BB104</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C49678.pdf</field>
+        <field name="Description">100nF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Part" value="CC0805KRX7R9BB104"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68ea68e7-f060-4da5-bf94-3cc376e0fe16</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C28323.pdf</datasheet>
+      <description>1uF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C28323</field>
+        <field name="Part">CL21B105KBFNNNE</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C28323.pdf</field>
+        <field name="Description">1uF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C28323"/>
+      <property name="Part" value="CL21B105KBFNNNE"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3e5b159-5190-4f5e-8815-97983db71fcc</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C28323.pdf</datasheet>
+      <description>1uF ±10% 50V Ceramic Capacitor X7R 0805</description>
+      <fields>
+        <field name="LCSC">C28323</field>
+        <field name="Part">CL21B105KBFNNNE</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C28323.pdf</field>
+        <field name="Description">1uF ±10% 50V Ceramic Capacitor X7R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C28323"/>
+      <property name="Part" value="CL21B105KBFNNNE"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99a90537-dcce-4a5d-9627-87be4d97c0fc</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C440198.pdf</datasheet>
+      <description>10uF ±10% 50V Ceramic Capacitor X5R 0805</description>
+      <fields>
+        <field name="LCSC">C440198</field>
+        <field name="Part">GRM21BR61H106KE43L</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C440198.pdf</field>
+        <field name="Description">10uF ±10% 50V Ceramic Capacitor X5R 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
+      <property name="Part" value="GRM21BR61H106KE43L"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>902798ab-aacb-4069-b41f-a96ba6ccf899</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C21519.pdf</datasheet>
+      <description>600Ω@100MHz 1 Line Ferrite Bead 0805 2A 100mΩ</description>
+      <fields>
+        <field name="LCSC Part">C21519</field>
+        <field name="Mrf part">MPZ2012S601AT000</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C21519.pdf</field>
+        <field name="Description">600Ω@100MHz 1 Line Ferrite Bead 0805 2A 100mΩ</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="LCSC Part" value="C21519"/>
+      <property name="Mrf part" value="MPZ2012S601AT000"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>488bc974-8797-4efa-b93b-9df0228eef5a</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>4.7uH</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C19190305.pdf</datasheet>
+      <description>2.2A 4.7uH ±20% 122mΩ 2.8A 1210 Fixed Inductors RoHS</description>
+      <fields>
+        <field name="LCSC">C19190305</field>
+        <field name="Part">SRP3212A-4R7M</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C19190305.pdf</field>
+        <field name="Description">2.2A 4.7uH ±20% 122mΩ 2.8A 1210 Fixed Inductors RoHS</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="LCSC" value="C19190305"/>
+      <property name="Part" value="SRP3212A-4R7M"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2e1209a-c018-47e8-b3d3-cf878ccd97e6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x16_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2905421.pdf</datasheet>
+      <description>Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃</description>
+      <fields>
+        <field name="LCSC Part">C2905421</field>
+        <field name="Part">KH-2.54FH-1X16P-H8.5</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2905421.pdf</field>
+        <field name="Description">Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x16_Socket" description="Generic connector, single row, 01x16, script generated"/>
+      <property name="LCSC Part" value="C2905421"/>
+      <property name="Part" value="KH-2.54FH-1X16P-H8.5"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf9875d7-d45c-4fcf-a8c6-987554af38aa</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x16_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2905421.pdf</datasheet>
+      <description>Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃</description>
+      <fields>
+        <field name="LCSC Part">C2905421</field>
+        <field name="Part">KH-2.54FH-1X16P-H8.5</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2905421.pdf</field>
+        <field name="Description">Female Header 16 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x16_Socket" description="Generic connector, single row, 01x16, script generated"/>
+      <property name="LCSC Part" value="C2905421"/>
+      <property name="Part" value="KH-2.54FH-1X16P-H8.5"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f1b399-3554-4507-8281-c2f42645060e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="LCSC Part">C2718488</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="LCSC Part" value="C2718488"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32c63ef-6d55-40cf-94a3-d0545cd3b96b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>KH-IPEXA-SMAKWE-B080H</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2919724.pdf</datasheet>
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <fields>
+        <field name="LCSC Part">C2919724</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2919724.pdf</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="LCSC Part" value="C2919724"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d42d202d-c047-4812-8608-2164a9f95c26</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>ST</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C84260.pdf</datasheet>
+      <description>Green 520nm LED Indication - Discrete 2.5V~3.6V 0805</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="LCSC">C84260</field>
+        <field name="Part">NCD0805G1</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C84260.pdf</field>
+        <field name="Description">Green 520nm LED Indication - Discrete 2.5V~3.6V 0805</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C84260"/>
+      <property name="Part" value="NCD0805G1"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1170c55-5880-48b7-bdf3-d2f2d8bc7a91</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C27834.pdf</datasheet>
+      <description>5.1kΩ ±1% 125mW 0805 Thick Film Resistor</description>
+      <fields>
+        <field name="LCSC">C27834</field>
+        <field name="Part">0805W8F5101T5E</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C27834.pdf</field>
+        <field name="Description">5.1kΩ ±1% 125mW 0805 Thick Film Resistor</field>
+      </fields>
+      <libsource lib="PWA" part="R_5.1K_1206_C26033" description="5.1kΩ 250mW 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C27834"/>
+      <property name="Part" value="0805W8F5101T5E"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74daf9f5-88c1-4f8d-a915-2f38159585b8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C27834.pdf</datasheet>
+      <description>5.1kΩ ±1% 125mW 0805 Thick Film Resistor</description>
+      <fields>
+        <field name="LCSC">C27834</field>
+        <field name="Part">0805W8F5101T5E</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C27834.pdf</field>
+        <field name="Description">5.1kΩ ±1% 125mW 0805 Thick Film Resistor</field>
+      </fields>
+      <libsource lib="PWA" part="R_5.1K_1206_C26033" description="5.1kΩ 250mW 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C27834"/>
+      <property name="Part" value="0805W8F5101T5E"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d691046-f828-4256-b378-4bf5b449668e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>PCM_JLCPCB:R_0805</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C84376.pdf</datasheet>
+      <description>125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS</description>
+      <fields>
+        <field name="LCSC">C84376</field>
+        <field name="Part">RC0805FR-0710KL</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">PCM_JLCPCB:R_0805</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C84376.pdf</field>
+        <field name="Description">125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C84376"/>
+      <property name="Part" value="RC0805FR-0710KL"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f92b6ef-ffa5-447f-93fa-0631bcb5ec98</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2.2k</value>
+      <footprint>PCM_JLCPCB:R_0805</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C17520.pdf</datasheet>
+      <description>2.2kΩ ±1% 125mW 0805 Thick Film Resistor</description>
+      <fields>
+        <field name="LCSC">C17520</field>
+        <field name="Part">0805W8F2201T5E</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">PCM_JLCPCB:R_0805</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C17520.pdf</field>
+        <field name="Description">2.2kΩ ±1% 125mW 0805 Thick Film Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Part" value="0805W8F2201T5E"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20329f94-e362-4f92-8953-e7656b94239f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>PCM_JLCPCB:R_0805</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C84376.pdf</datasheet>
+      <description>125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS</description>
+      <fields>
+        <field name="LCSC">C84376</field>
+        <field name="Part">RC0805FR-0710KL</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">PCM_JLCPCB:R_0805</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C84376.pdf</field>
+        <field name="Description">125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C84376"/>
+      <property name="Part" value="RC0805FR-0710KL"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17d8817d-11e7-4d49-b8de-caeda270eecc</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>PCM_JLCPCB:R_0805</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C84376.pdf</datasheet>
+      <description>125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS</description>
+      <fields>
+        <field name="LCSC">C84376</field>
+        <field name="Part">RC0805FR-0710KL</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">PCM_JLCPCB:R_0805</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C84376.pdf</field>
+        <field name="Description">125mW 10kΩ 150V Thick Film Resistor ±100ppm/℃ ±1% 0805 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C84376"/>
+      <property name="Part" value="RC0805FR-0710KL"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0563b80b-b465-4a26-b2c4-a80ffa52a0de</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>boot</value>
+      <footprint>easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2</footprint>
+      <datasheet>https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C455109</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="LCSC" part="TS-1002S-04526C" description=""/>
+      <property name="LCSC Part" value="C455109"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bcc5bd8-5fb8-428f-8107-e0f2b9ffe475</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>reset</value>
+      <footprint>easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2</footprint>
+      <datasheet>https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</datasheet>
+      <description>Tactile Switch SPST 4.5mm 6mm x 6mm Surface Mount</description>
+      <fields>
+        <field name="LCSC Part">C455109</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</field>
+        <field name="Description">Tactile Switch SPST 4.5mm 6mm x 6mm Surface Mount</field>
+      </fields>
+      <libsource lib="" part="TS-1002S-04526C_1" description=""/>
+      <property name="LCSC Part" value="C455109"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abd0571f-8b76-4fa9-a9ce-b0caa4015196</tstamps>
+    </comp>
+    <comp ref="TVS1">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html</datasheet>
+      <description>17VC Clamp 5A Ipp ESD DIODE SOT-23-6L</description>
+      <fields>
+        <field name="LCSC Part">C7519</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html</field>
+        <field name="Description">17VC Clamp 5A Ipp ESD DIODE SOT-23-6L</field>
+      </fields>
+      <libsource lib="easyeda2kicad" part="USBLC6-2SC6" description="17VC Clamp 5A Ipp ESD DIODE SOT-23-6L"/>
+      <property name="LCSC Part" value="C7519"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b75d3e16-0e05-482f-9a76-9dc762dbadce</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ADT7310TRZ</value>
+      <footprint>easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C660039.pdf</datasheet>
+      <description>-55℃~+150℃ SPI 2.7V~5.5V SOIC-8 Analog and Digital Output RoHS</description>
+      <fields>
+        <field name="LCSC Part">C660039</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C660039.pdf</field>
+        <field name="Description">-55℃~+150℃ SPI 2.7V~5.5V SOIC-8 Analog and Digital Output RoHS</field>
+      </fields>
+      <libsource lib="easyeda2kicad" part="ADT7310TRZ" description=""/>
+      <property name="LCSC Part" value="C660039"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05051652-d2f1-4258-a771-04df37876f37</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>3.3V</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C780769.pdf</datasheet>
+      <description>1.1MHz Buck Fixed 2A 3.3V TSOT-23-6 Voltage Regulators - DC DC Switching Regulators RoHS</description>
+      <fields>
+        <field name="LCSC">C780769</field>
+        <field name="Part">AP63203WU-7</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C780769.pdf</field>
+        <field name="Description">1.1MHz Buck Fixed 2A 3.3V TSOT-23-6 Voltage Regulators - DC DC Switching Regulators RoHS</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="AP63205WU" description="2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"/>
+      <property name="LCSC" value="C780769"/>
+      <property name="Part" value="AP63203WU-7"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <property name="ki_keywords" value="2A Buck DC/DC"/>
+      <property name="ki_fp_filters" value="TSOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b362947c-59b1-4eb7-afe6-7a8b1cf2d23c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ESP32-C5-WROOM-1U-N8-R4</value>
+      <footprint>easyeda2kicad:COMM-SMD_32P-L21.2-W18.0_ESP32-C5-WROOM-1U</footprint>
+      <datasheet>https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C49308183</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">easyeda2kicad:COMM-SMD_32P-L21.2-W18.0_ESP32-C5-WROOM-1U</field>
+        <field name="Datasheet">https://documentation.espressif.com/esp32-c5-wroom-1_wroom-1u_datasheet_en.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="easyeda2kicad" part="ESP32-C5-WROOM-1U-N8-R4" description=""/>
+      <property name="LCSC Part" value="C49308183"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e660984-e779-4546-8509-b6537d62370e</tstamps>
+    </comp>
+    <comp ref="USBC1">
+      <value>TYPE-C 16PIN 2MD(073)</value>
+      <footprint>pwa:USB-C-SMD_TYPE-C-6PIN-2MD-073</footprint>
+      <fields>
+        <field name="LCSC Part">C2765186</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+        <field name="Footprint">pwa:USB-C-SMD_TYPE-C-6PIN-2MD-073</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="easyeda2kicad" part="TYPE-C16PIN2MD(073)" description=""/>
+      <property name="LCSC Part" value="C2765186"/>
+      <property name="Attrition Qty" value=""/>
+      <property name="Capacitance" value=""/>
+      <property name="Category" value=""/>
+      <property name="Circuits" value=""/>
+      <property name="Class" value=""/>
+      <property name="Current Rating" value=""/>
+      <property name="DC Resistance" value=""/>
+      <property name="Impedance @ Frequency" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Minimum Qty" value=""/>
+      <property name="Power(Watts)" value=""/>
+      <property name="Price" value=""/>
+      <property name="Process" value=""/>
+      <property name="Resistance" value=""/>
+      <property name="Stock" value=""/>
+      <property name="Temperature Coefficient" value=""/>
+      <property name="Tolerance" value=""/>
+      <property name="Voltage Rated" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32_base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0748f369-7b5d-4fc5-b52f-e0da31bf987c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="TS-1002S-04526C_1">
+      <docs>https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</docs>
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">reset</field>
+        <field name="Footprint">easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C455109</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x16_Socket">
+      <description>Generic connector, single row, 01x16, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x16, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna">
+      <description>Antenna</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor with ferrite core</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LCSC" part="TS-1002S-04526C">
+      <docs>https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TS-1002S-04526C</field>
+        <field name="Footprint">easyeda2kicad:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-2</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1002S-04526C_C455109.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C455109</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_JLCPCB-Capacitors" part="1206,100nF">
+      <description>50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">PCM_JLCPCB:C_1206</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.pdf</field>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C24497</field>
+        <field name="Stock">831517</field>
+        <field name="Price">0.016USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">15</field>
+        <field name="Attrition Qty">8</field>
+        <field name="Class">Basic Component</field>
+        <field name="Category">Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part">CL31B104KBCNNNC</field>
+        <field name="Voltage Rated">50V</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Capacitance">100nF</field>
+        <field name="Temperature Coefficient">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_JLCPCB-Capacitors" part="1206,10nF">
+      <description>50V 10nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B103K500NT_C1846.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF</field>
+        <field name="Footprint">PCM_JLCPCB:C_1206</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B103K500NT_C1846.pdf</field>
+        <field name="Description">50V 10nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C1846</field>
+        <field name="Stock">156850</field>
+        <field name="Price">0.015USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">20</field>
+        <field name="Attrition Qty">10</field>
+        <field name="Class">Basic Component</field>
+        <field name="Category">Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
+        <field name="Part">1206B103K500NT</field>
+        <field name="Voltage Rated">50V</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Capacitance">10nF</field>
+        <field name="Temperature Coefficient">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_JLCPCB-Capacitors" part="1206,4.7uF">
+      <description>50V 4.7uF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B475K500NT_C29823.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF</field>
+        <field name="Footprint">PCM_JLCPCB:C_1206</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B475K500NT_C29823.pdf</field>
+        <field name="Description">50V 4.7uF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C29823</field>
+        <field name="Stock">727299</field>
+        <field name="Price">0.035USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">5</field>
+        <field name="Attrition Qty">8</field>
+        <field name="Class">Basic Component</field>
+        <field name="Category">Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT</field>
+        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
+        <field name="Part">1206B475K500NT</field>
+        <field name="Voltage Rated">50V</field>
+        <field name="Tolerance">±10%</field>
+        <field name="Capacitance">4.7uF</field>
+        <field name="Temperature Coefficient">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PWA" part="R_5.1K_1206_C26033">
+      <description>5.1kΩ 250mW 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS</description>
+      <docs>https://www.lcsc.com/datasheet/C26033.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C26033.pdf</field>
+        <field name="Description">5.1kΩ 250mW 200V ±100ppm/℃ Thick Film Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS</field>
+        <field name="LCSC">C26033</field>
+        <field name="Part">1206W4F5101T5E</field>
+        <field name="Resistance">5.1kΩ</field>
+        <field name="Power(Watts)">250mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="AP63205WU">
+      <description>2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63205WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+        <field name="Description">2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="ADT7310TRZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADT7310TRZ</field>
+        <field name="Footprint">easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C660039</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCLK" type="unspecified"/>
+        <pin num="2" name="DOUT" type="unspecified"/>
+        <pin num="3" name="DIN" type="unspecified"/>
+        <pin num="4" name="~{CS}" type="unspecified"/>
+        <pin num="5" name="INT" type="unspecified"/>
+        <pin num="6" name="CT" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="VDD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="ESP32-C5-WROOM-1U-N8-R4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C5-WROOM-1U-N8-R4</field>
+        <field name="Footprint">easyeda2kicad:COMM-SMD_32P-L21.2-W18.0_ESP32-C5-WROOM-1U</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C49308183</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="3V3" type="unspecified"/>
+        <pin num="3" name="EN" type="unspecified"/>
+        <pin num="4" name="IO2" type="unspecified"/>
+        <pin num="5" name="IO3" type="unspecified"/>
+        <pin num="6" name="IO0" type="unspecified"/>
+        <pin num="7" name="IO1" type="unspecified"/>
+        <pin num="8" name="IO6" type="unspecified"/>
+        <pin num="9" name="IO7" type="unspecified"/>
+        <pin num="10" name="IO8" type="unspecified"/>
+        <pin num="11" name="IO9" type="unspecified"/>
+        <pin num="12" name="IO10" type="unspecified"/>
+        <pin num="13" name="IO13" type="unspecified"/>
+        <pin num="14" name="IO14" type="unspecified"/>
+        <pin num="15" name="IO28" type="unspecified"/>
+        <pin num="16" name="IO5" type="unspecified"/>
+        <pin num="17" name="IO4" type="unspecified"/>
+        <pin num="18" name="IO27" type="unspecified"/>
+        <pin num="19" name="NC/IO15" type="unspecified"/>
+        <pin num="20" name="NC" type="unspecified"/>
+        <pin num="21" name="IO23" type="unspecified"/>
+        <pin num="22" name="NC" type="unspecified"/>
+        <pin num="23" name="IO24" type="unspecified"/>
+        <pin num="24" name="RX0" type="unspecified"/>
+        <pin num="25" name="TX0" type="unspecified"/>
+        <pin num="26" name="IO25" type="unspecified"/>
+        <pin num="27" name="IO26" type="unspecified"/>
+        <pin num="28" name="GND" type="unspecified"/>
+        <pin num="29" name="GND" type="unspecified"/>
+        <pin num="30" name="GND" type="unspecified"/>
+        <pin num="31" name="ANT2" type="unspecified"/>
+        <pin num="32" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="TYPE-C16PIN2MD(073)">
+      <fields>
+        <field name="Reference">USBC1</field>
+        <field name="Value">TYPE-C 16PIN 2MD(073)</field>
+        <field name="Footprint">easyeda2kicad:USB-C-SMD_TYPE-C-6PIN-2MD-073</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C2765186</field>
+        <field name="Attrition Qty"/>
+        <field name="Capacitance"/>
+        <field name="Category"/>
+        <field name="Circuits"/>
+        <field name="Class"/>
+        <field name="Current Rating"/>
+        <field name="DC Resistance"/>
+        <field name="Impedance @ Frequency"/>
+        <field name="Manufacturer"/>
+        <field name="Minimum Qty"/>
+        <field name="Power(Watts)"/>
+        <field name="Price"/>
+        <field name="Process"/>
+        <field name="Resistance"/>
+        <field name="Stock"/>
+        <field name="Temperature Coefficient"/>
+        <field name="Tolerance"/>
+        <field name="Voltage Rated"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VBUS" type="power_in"/>
+        <pin num="3" name="SBU2" type="no_connect"/>
+        <pin num="4" name="CC1" type="passive"/>
+        <pin num="5" name="DN2" type="passive"/>
+        <pin num="6" name="DP1" type="passive"/>
+        <pin num="7" name="DN1" type="passive"/>
+        <pin num="8" name="DP2" type="passive"/>
+        <pin num="9" name="SBU1" type="no_connect"/>
+        <pin num="10" name="CC2" type="passive"/>
+        <pin num="11" name="VBUS" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="USBLC6-2SC6">
+      <description>17VC Clamp 5A Ipp ESD DIODE SOT-23-6L</description>
+      <docs>https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html</docs>
+      <fields>
+        <field name="Reference">TVS1</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html</field>
+        <field name="Description">17VC Clamp 5A Ipp ESD DIODE SOT-23-6L</field>
+        <field name="LCSC Part">C7519</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="output"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Users/pwahlman/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Users/pwahlman/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="LCSC">
+      <uri>/Users/pwahlman/Documents/KiCad/easyeda2kicad/easyeda2kicad.kicad_sym</uri>
+    </library>
+    <library logical="PCM_JLCPCB-Capacitors">
+      <uri>/Users/pwahlman/Documents/KiCad/9.0/3rdparty//symbols/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB-Capacitors.kicad_sym</uri>
+    </library>
+    <library logical="PWA">
+      <uri>/Users/pwahlman/Cloud-Drive/code/PCB/kicad_ESP32_base/libraries/pwa_kicad_lib/pwa.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/Users/pwahlman/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="easyeda2kicad">
+      <uri>/Users/pwahlman/Documents/KiCad/easyeda2kicad/easyeda2kicad.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="FB2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VDD" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="FB" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="3V3" pintype="unspecified"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/JOYSTICK" class="Signals,Default">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="IO3" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/LCD_BL" class="Signals,Default">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="IO26" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/LCD_CS" class="Signals,Default">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="IO25" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/LCD_DC" class="Signals,Default">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="IO10" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/LCD_RST" class="Signals,Default">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="TX0" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/SPI_MISO" class="Signals,Default">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="DOUT" pintype="unspecified"/>
+      <node ref="U3" pin="10" pinfunction="IO8" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/SPI_MOSI" class="Signals,Default">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="DIN" pintype="unspecified"/>
+      <node ref="U3" pin="7" pinfunction="IO1" pintype="unspecified"/>
+    </net>
+    <net code="10" name="/SPI_SCK" class="Signals,Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SCLK" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="IO0" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/TEMP_CS" class="Signals,Default">
+      <node ref="U1" pin="4" pinfunction="~{CS}" pintype="unspecified"/>
+      <node ref="U3" pin="21" pinfunction="IO23" pintype="unspecified"/>
+    </net>
+    <net code="12" name="/TP_CS" class="Signals,Default">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="RX0" pintype="unspecified"/>
+    </net>
+    <net code="13" name="/TP_IRQ" class="Signals,Default">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="IO24" pintype="unspecified"/>
+    </net>
+    <net code="14" name="/USB_D+" class="USB_90,Default">
+      <node ref="TVS1" pin="4" pinfunction="4" pintype="output"/>
+      <node ref="U3" pin="13" pinfunction="IO13" pintype="unspecified"/>
+    </net>
+    <net code="15" name="/USB_D-" class="USB_90,Default">
+      <node ref="TVS1" pin="6" pinfunction="6" pintype="output"/>
+      <node ref="U3" pin="14" pinfunction="IO14" pintype="unspecified"/>
+    </net>
+    <net code="16" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="TVS1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="28" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="29" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="30" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="32" pinfunction="GND" pintype="unspecified"/>
+      <node ref="USBC1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="USBC1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="USBC1" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="USBC1" pin="14" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(LED1-A)" class="Default">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U2-BST)" class="Default">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U2-SW)" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(U3-EN)" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="21" name="Net-(U3-IO27)" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="IO27" pintype="unspecified"/>
+    </net>
+    <net code="22" name="Net-(U3-IO28)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U3" pin="15" pinfunction="IO28" pintype="unspecified"/>
+    </net>
+    <net code="23" name="Net-(USBC1-CC1)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="USBC1" pin="4" pinfunction="CC1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(USBC1-CC2)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="USBC1" pin="10" pinfunction="CC2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(USBC1-DN1)" class="Default">
+      <node ref="TVS1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="USBC1" pin="5" pinfunction="DN2" pintype="passive"/>
+      <node ref="USBC1" pin="7" pinfunction="DN1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(USBC1-DP1)" class="Default">
+      <node ref="TVS1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="USBC1" pin="6" pinfunction="DP1" pintype="passive"/>
+      <node ref="USBC1" pin="8" pinfunction="DP2" pintype="passive"/>
+    </net>
+    <net code="27" name="VBUS" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TVS1" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="USBC1" pin="11" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="USBC1" pin="2" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="29" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J1-Pin_4-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J1-Pin_5-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J1-Pin_6-Pad6)" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J2-Pin_3-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J2-Pin_4-Pad4)" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J2-Pin_5-Pad5)" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J2-Pin_6-Pad6)" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J2-Pin_7-Pad7)" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J2-Pin_8-Pad8)" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J2-Pin_9-Pad9)" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J2-Pin_10-Pad10)" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J2-Pin_11-Pad11)" class="Default">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J2-Pin_12-Pad12)" class="Default">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J2-Pin_13-Pad13)" class="Default">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J2-Pin_14-Pad14)" class="Default">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J2-Pin_15-Pad15)" class="Default">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J3-Pin_1-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J3-Pin_2-Pad2)" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J3-Pin_3-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J3-Pin_4-Pad4)" class="Default">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J5-In-Pad1)" class="Default">
+      <node ref="J5" pin="1" pinfunction="In" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(SW1-Pad1)" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(SW1-Pad4)" class="Default">
+      <node ref="SW1" pin="4" pinfunction="4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(SW2-Pad1)" class="Default">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(SW2-Pad4)" class="Default">
+      <node ref="SW2" pin="4" pinfunction="4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-CT-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="CT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-INT-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="INT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3-ANT2-Pad31)" class="Default">
+      <node ref="U3" pin="31" pinfunction="ANT2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-IO2-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="IO2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-IO4-Pad17)" class="Default">
+      <node ref="U3" pin="17" pinfunction="IO4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3-IO5-Pad16)" class="Default">
+      <node ref="U3" pin="16" pinfunction="IO5" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-IO6-Pad8)" class="Default">
+      <node ref="U3" pin="8" pinfunction="IO6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-IO7-Pad9)" class="Default">
+      <node ref="U3" pin="9" pinfunction="IO7" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U3-IO9-Pad11)" class="Default">
+      <node ref="U3" pin="11" pinfunction="IO9" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U3-NC-Pad20)" class="Default">
+      <node ref="U3" pin="20" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3-NC-Pad22)" class="Default">
+      <node ref="U3" pin="22" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-NC/IO15-Pad19)" class="Default">
+      <node ref="U3" pin="19" pinfunction="NC/IO15" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(USBC1-SBU1-Pad9)" class="Default">
+      <node ref="USBC1" pin="9" pinfunction="SBU1" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(USBC1-SBU2-Pad3)" class="Default">
+      <node ref="USBC1" pin="3" pinfunction="SBU2" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
