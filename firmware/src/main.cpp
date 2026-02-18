@@ -239,7 +239,7 @@ extern "C" void app_main(void)
                 // Raw coordinate jump detection in touch_read() handles phantom filtering
                 ESP_LOGI("MAIN", "Touch at (%d, %d)", touch.x, touch.y);
                 // Draw a larger fingerprint circle at touch location
-                lcd.drawFilledCircle(touch.x, touch.y, 10, 0xFFFF); // White, 10px radius
+                lcd.drawFilledCircle(touch.x, touch.y, 10, C_GLOW); // Light blue, 10px radius
                 // Store marker in first available slot
                 for (int i = 0; i < MAX_TOUCH_MARKERS; i++) {
                     if (!touch_markers[i].active) {
