@@ -169,7 +169,7 @@
           "td_width_to_size_filter_ratio": 1.0
         },
         {
-          "td_allow_use_two_tracks": false,
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
           "td_height_ratio": 0.6,
           "td_length_ratio": 0.4,
