@@ -18893,7 +18893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "reset"
+		(property "Value" "mode"
 			(at 196.596 297.434 0)
 			(effects
 				(font
