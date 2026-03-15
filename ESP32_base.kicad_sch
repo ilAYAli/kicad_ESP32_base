@@ -4422,124 +4422,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:530480210"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "530480210"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_530480210"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-530480210_C505099.html"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C505099"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "530480210_0_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:ADT7310TRZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6957,6 +6839,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:S2B-PH-K-S(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S2B-PH-K-S(LF)(SN)"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_S2B-PH-K-S-LF-SN"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/PH-Connectors_JST-Sales-America_S2B-PH-K-S-LF-SN_JST-Sales-America-S2B-PH-K-S-LF-SN_C173752.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C173752"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S2B-PH-K-S(LF)(SN)_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.03 3.3)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:USBLC6-2SC6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8263,7 +8263,7 @@
 	)
 	(text "battery: 102035"
 		(exclude_from_sim no)
-		(at 259.334 102.87 0)
+		(at 261.112 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8701,7 +8701,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 107.95) (xy 252.73 107.95)
+			(xy 247.65 107.95) (xy 255.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9798,16 +9798,6 @@
 			(type default)
 		)
 		(uuid "7c7c19c8-b7c1-4794-9c91-b0a7255ed454")
-	)
-	(wire
-		(pts
-			(xy 252.73 111.76) (xy 252.73 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cdba9fa-fb01-46c0-a049-1e7b79aa5b21")
 	)
 	(wire
 		(pts
@@ -14267,17 +14257,17 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:530480210")
-		(at 257.81 109.22 0)
+		(lib_id "easyeda2kicad:S2B-PH-K-S(LF)(SN)")
+		(at 260.35 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f2199c0-eb5e-4446-a872-dcf9438e9d3a")
+		(uuid "411ebff5-4091-45a0-be0a-716656d635a2")
 		(property "Reference" "CN1"
-			(at 261.62 107.9499 0)
+			(at 266.7 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14285,8 +14275,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BATT CONN"
-			(at 261.62 110.4899 0)
+		(property "Value" "S2B-PH-K-S(LF)(SN)"
+			(at 266.7 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14294,8 +14284,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_530480210"
-			(at 257.81 118.11 0)
+		(property "Footprint" "easyeda2kicad:CONN-TH_S2B-PH-K-S-LF-SN"
+			(at 260.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14303,8 +14293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-530480210_C505099.html"
-			(at 257.81 120.65 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/PH-Connectors_JST-Sales-America_S2B-PH-K-S-LF-SN_JST-Sales-America-S2B-PH-K-S-LF-SN_C173752.html"
+			(at 260.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14312,8 +14302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header 2 position 1.25mm Pitch 1A Right Angle -40℃~+85℃"
-			(at 257.81 109.22 0)
+		(property "Description" ""
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14321,17 +14311,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C505099"
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "530480210"
-			(at 257.81 109.22 0)
+		(property "LCSC Part" "C173752"
+			(at 260.35 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,10 +14321,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "307bd871-c79b-4324-aea7-285aba02c076")
+			(uuid "3e68a413-60e2-4875-a111-c93a8bcbb1b1")
 		)
 		(pin "1"
-			(uuid "d565b573-1957-4aa0-a8d0-f7f95048fe09")
+			(uuid "3a8d59f4-799e-4b8d-a55b-a770c273479f")
 		)
 		(instances
 			(project ""
@@ -18284,7 +18265,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 111.76 0)
+		(at 255.27 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18293,7 +18274,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c4c67ca-f528-4ce4-8556-f1232bfe5552")
 		(property "Reference" "#PWR056"
-			(at 252.73 118.11 0)
+			(at 248.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18302,7 +18283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 116.84 0)
+			(at 250.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,7 +18291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 111.76 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18319,7 +18300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 111.76 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,7 +18309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 111.76 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18340,7 +18321,7 @@
 			(uuid "6e0d1137-8e0b-4bc3-8737-e7890f0768f2")
 		)
 		(instances
-			(project ""
+			(project "ESP32_base"
 				(path "/773fb1fd-83fe-4444-84df-dce6da829395"
 					(reference "#PWR056")
 					(unit 1)
